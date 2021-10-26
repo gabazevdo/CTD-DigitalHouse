@@ -97,6 +97,3 @@ y = a * b
 
 console.log("O valor", a, "+", b,"=", x)
 console.log("O valor", a, "x", b,"=", y)
-
-console.log("Vamos que vamos Johnsons!!!")
-console.log("#Labenu")

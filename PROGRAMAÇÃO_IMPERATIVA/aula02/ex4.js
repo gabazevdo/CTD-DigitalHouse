@@ -54,3 +54,9 @@ altura = 1.62
 plano = "prata" 
 console.log(`Paciente ${nome} tem ${idade} anos, seu peso é ${peso}. Tem plano? ${plano}.\nO IMC é ${(peso/(altura**2)).toFixed(2)}\n`)
 
+
+
+const massaCorporal_IMC = (nome, idade, peso, altura, plano) =>{
+    return console.log(`Paciente ${nome} tem ${idade} anos, seu peso é ${peso}. Tem plano? ${plano}.\nO IMC é ${(peso/(altura**2)).toFixed(2)}\n`)
+}
+massaCorporal_IMC("Gabriel Azevedo", 30, 80, 1.85, "Gold")
