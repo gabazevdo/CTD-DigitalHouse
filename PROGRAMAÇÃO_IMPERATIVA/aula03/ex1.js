@@ -10,42 +10,48 @@ Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centí
 *IMC, significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura. */
 
 // Função 1
-function conversaoPolegadaemCentimentros(centimentros) {
+function conversaoPolegadaemCentimentros(centimetros) {
   let polegadas = 2.54;
-  let conversao = centimentros * polegadas;
-  return console.log(`ex1. ${centimentros}cm é equivalente a ${conversao}pol.`);
+  let conversao = centimetros * polegadas;
+  return console.log(`ex1. ${centimetros}cm é equivalente a ${conversao}pol.
+  `);
 }
 conversaoPolegadaemCentimentros(10);
 
 //Função 2
 function conversaoStringUrl(string) {
-  return console.log(`ex2. www.${string}.com.br`);
+  return console.log(`ex2. www.${string}.com.br
+  `);
 }
 conversaoStringUrl("teste");
 
 //Função 3
 function stringComExclamacao(string) {
-  return console.log(`ex3. ${string}!`);
+  return console.log(`ex3. ${string}!
+  `);
 }
 stringComExclamacao("Frase com o caracter de exclamação");
 
 //Função 4
 function idadeDoDoguineo(idade){
-    return console.log(`ex4. A idade é ${idade}, em anos doguineos ele tem ${idade*7} anos.`)
+    return console.log(`ex4. A idade é ${idade}, em anos doguineos ele tem ${idade*7} anos.
+    `)
 }
 idadeDoDoguineo(7)
 
 //Função 5
 function horaTrabalhada(salario){
     let horas = 160
-    return console.log(`ex5. O salário é R$ ${salario}. Sua hora é R$ ${(salario/horas).toFixed(2)}.`)
+    return console.log(`ex5. O salário é R$ ${salario}. Sua hora é R$ ${(salario/horas).toFixed(2)}.
+    `)
 }
 horaTrabalhada(1192.40)
 
 //Função 6
 function indiceMassa(altura, peso){
     let imc = (peso/(altura**2)).toFixed(2)
-    return console.log(`ex6. Sua altura é ${altura}mt, seu peso é ${peso}kg. O IMC é de ${imc}.`)
+    return console.log(`ex6. Sua altura é ${altura}mt, seu peso é ${peso}kg. O IMC é de ${imc}.
+    `)
 }
 indiceMassa(1.85, 80)
 
@@ -60,8 +66,28 @@ Crie uma função pela qual passamos o raio de um círculo e ela retorna a circu
 Dica: Investigue se o objeto Math tem entre suas propriedades o número Pi.
  */
 
+//Desafio 1
 function minusculaMaiuscula(frase){
-    return console.log(`a frase é ${frase}. Em maísculo é ${(frase).toUpperCase()}`)
+    return console.log(`Desafio1. ${frase} ===> ${(frase).toUpperCase()}
+    `)
 }
+minusculaMaiuscula("Essa é uma frase modificada com o metodo toUpperCase().")
 
-minusculaMaiuscula("Teste teste")
+
+//Desafio 2
+function tipoParametro(tipo1, tipo2, tipo3, tipo4, tipo5){
+  return console.log(`Desafio2. O tipo do parametro é: ${typeof tipo1}, ${typeof tipo2}, ${typeof tipo3}, ${typeof tipo4}, ${typeof tipo5}
+  `)
+}
+tipoParametro("Tipo", 10, {a:10}, true, [1.8], function(){})
+
+//Desafio 3
+function calcularCircunferencia(raio) {
+  const pi = Math.PI
+  let circulo
+  circulo = (2 * pi * raio).toFixed(2)
+  return console.log(`Desafio3. O raio informado é: ${raio}. O comprimento do circulo é: ${circulo}
+  `)
+}
+calcularCircunferencia(10); 
+
