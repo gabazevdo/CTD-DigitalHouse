@@ -101,12 +101,33 @@ console.log(quadradoDoNumero(multiplicação(power())));
 
 //Desafio 2
 const mediaDeTresNumeros = (nota1, nota2, nota3) => {
-  return `Desafio 2 - A média é: ${(nota1 + nota2 + nota3) / 3}
+  return `Desafio 2 - Nota1: ${nota1}, Nota2: ${nota2}, Nota3: ${nota3}. A média é: ${((nota1 + nota2 + nota3) / 3).toFixed(2)} 
     `;
 };
-console.log(mediaDeTresNumeros(10, 10, 5));
+
+const valor1 = () =>{
+  return 8
+}
+const valor2 = () =>{
+  return 5
+}
+const valor3 = () =>{
+  return 5
+}
+console.log(mediaDeTresNumeros(valor1(), valor2(), valor3()));
+
 
 //Desafio 3
-const calculaPorcentagem = (valor, porcentagem) =>{
-     
+const calculaPorcentagem = (valor, porcentagem) => {
+  return console.log(`Desafio 3 - ${porcentagem}% de ${valor} é ${(porcentagem * valor) / 100}
+  `);
+};
+calculaPorcentagem(300, 15);
+
+
+//Desafio 4
+const geradorDePorcentagem = (porcentagem, valor) =>{
+  return console.log(`Desafio 4 - ${porcentagem}% de ${valor} é ${(porcentagem/valor) *100 } 
+  `)
 }
+geradorDePorcentagem(2, 200);
