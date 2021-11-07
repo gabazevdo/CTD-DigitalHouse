@@ -1,4 +1,8 @@
 /* 
+
+
+=========> ATIVIDADE FEITA EM MESA DE TRABALHO
+
 Operando Logicamente
 É chegado o momento de colocar em prática todas essas informações sobre os operadores e como podemos utilizá-los para criar sequências lógicas e de comparação. 
 Para isso, vamos realizar uma série de exercícios que nos ajudarão a fixar os conceitos aprendidos até aqui.

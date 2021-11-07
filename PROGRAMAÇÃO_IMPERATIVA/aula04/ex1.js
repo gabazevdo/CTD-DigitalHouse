@@ -44,7 +44,8 @@ num5 = "1"
 console.log("Ex5 - Concatenação de string ('1' + 1). Resultado : ", num5+1)
 
 //Exercício 6
-console.log("Ex6 - Olá " + 23)
+num5 = "olá "+23
+console.log("Ex6 - ", num5)
 
 //Exercício 7
 console.log("Ex7 - Variável n1 = " + num1 + ", variável n2 = " + num2 + ", variavel n3 = " + num3 + ", variável n4 = " +num4+ ", por ultimo, variável n5 = "+ num5 )
