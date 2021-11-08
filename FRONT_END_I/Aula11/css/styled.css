@@ -1,0 +1,87 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+div {
+  position: absolute;
+}
+
+p {
+  color: #fff;
+  font-weight: 900;
+ 
+}
+
+.caixa1 {
+  background-color: rgb(87, 87, 87);
+  height: 300px;
+  width: 300px;
+
+  left: 0;
+  top: 0;
+}
+.caixa1 > div {
+  background-color: rgb(100, 100, 100);
+  height: 150px;
+  width: 150px;
+
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa2 {
+  background-color: rgb(87, 87, 87);
+  height: 300px;
+  width: 300px;
+
+  right: 0;
+  top: 0;
+}
+.caixa2 > div {
+  background-color: rgb(100, 100, 100);
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa3 {
+  background-color: rgb(87, 87, 87);
+  height: 300px;
+  width: 300px;
+
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+.caixa3 > div {
+  background-color: rgb(100, 100, 100);
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
