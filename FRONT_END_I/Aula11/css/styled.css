@@ -4,18 +4,19 @@
 }
 
 body {
-  background-color: #ccc;
+  background-color: #000;
 }
 
 div {
   position: absolute;
 }
 
-p {
-  color: #fff;
-  font-weight: 900;
- 
+h1{
+  color: darkgoldenrod;
+  margin: 400px 490px;
+  font-size: 80px;
 }
+
 
 .caixa1 {
   background-color: rgb(87, 87, 87);
@@ -26,7 +27,7 @@ p {
   top: 0;
 }
 .caixa1 > div {
-  background-color: rgb(100, 100, 100);
+  background-color: #ccc;
   height: 150px;
   width: 150px;
 
@@ -49,7 +50,7 @@ p {
   top: 0;
 }
 .caixa2 > div {
-  background-color: rgb(100, 100, 100);
+  background-color: #ccc;
   height: 150px;
   width: 150px;
   top: 50%;
@@ -73,7 +74,7 @@ p {
   bottom: 0;
 }
 .caixa3 > div {
-  background-color: rgb(100, 100, 100);
+  background-color: #ccc;
   height: 150px;
   width: 150px;
   top: 50%;
@@ -84,4 +85,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+span{
+  height: 80px;
+  width: 80px;
+  background-image: url("https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F2026.png");
+  background-size: 80px;
 }
