@@ -31,30 +31,43 @@ b) Em caso de impedimento, exiba a mensagem: “Acesso
 negado.” 
 */
 
-
-
-let altura = parseFloat(Math.random()) + 1; // gera um número randômico entre 0 e 1 e soma +1 
+let altura = parseFloat(Math.random()) + 1; // gera um número randômico entre 0 e 1 e soma +1
 let companhia = Math.floor(Math.random() * 2); // gera um número randômico booleano (entre 0 e 1) valor 0 é false / valor 1 é true
 
 const podeSubir = (altura, companhia) => {
-  if (altura >= 1.4 && altura <= 2) {
+  if (altura > 1.4 && altura < 2) {
     return `
         Altura: ${altura.toFixed(2)} 
         Companhia: ${companhia == 1 ? "Sim" : "Não"}
         Acesso autorizado, tem altura ideal.
         `;
-  } else if (altura < 1.4 && companhia) {
+  } else if (altura < 1.4 && altura > 1.2 && companhia) {
     return `
         Altura: ${altura.toFixed(2)}
         Companhia: ${companhia == 1 ? "Sim" : "Não"}
-        Acesso autorizado somente com acompanhante.
+        Acesso autorizado. Esta com acompanhante.
         `;
+  } else if (altura < 1.4 && altura > 1.2 && companhia == 0) {
+    return `
+              Altura: ${altura.toFixed(2)}
+              Companhia: ${companhia == 1 ? "Sim" : "Não"}
+              Acesso negado. Entre somente com acompanhante.
+              `;
   } else {
     return `
         Altura: ${altura.toFixed(2)}
         Companhia: ${companhia == 1 ? "Sim" : "Não"}
-        Acesso negado. Você não tem a altura ideal e não tem companhia.
+        Acesso negado. Você não tem a altura ideal.
+        Não atende aos requistos.
         `;
   }
 };
-console.log(podeSubir(altura, companhia));
+console.log(`
+                       .:: Entrada para a roda gigante ::.
+
+            ----------------------- REQUISITOS -----------------------
+           | Altura min.: 1.40mt - máx.: 2mt                          |
+           | Entre 1.20mt e 1.40mt - entrada somente com acompanhante |
+           | Menor que 1.20 acesso negado                             |
+            ----------------------------------------------------------  
+            ${podeSubir(altura, companhia)}`);
