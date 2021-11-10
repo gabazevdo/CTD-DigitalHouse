@@ -21,3 +21,11 @@ Opção | Prato  | Tempo preparo| -'.::.'-
 - Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
 - Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
 - No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
+
+---
+
+<h2>Atividade finalizada</h2>
+
+<p>Constrí o código de uma maneira que o usuário possa interagir.</p>
+<p>Mas pretendo (e irei) fazer de uma forma que possa ser utilizado apenas no terminal e inserindo valores diretamente no código</p>
+- Pra testar <a href="https://checkpoint1-microondas.netlify.app/">clique aqui</a>.
