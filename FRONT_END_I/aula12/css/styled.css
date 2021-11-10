@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ccc;
+}
+
+.span1 {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+
+  height: 60px;
+  width: 300px;
+
+  background-image: url("../images/logo-DH.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+.span2 {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.button-span2 {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 900;
+  width: 100px;
+  background-color: #253138;
+  color: #ff113e;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+.button-span2:hover {
+  background-color: #fff;
+  color: #ff113e;
+  border: 1px solid #253138;
+  cursor: pointer;
+}
+
+.imgSpan {
+  width: 100%;
+  height: 600px;
+  background-color: #e4e4e4;
+
+  background-image: url("../images/financiamento-isa_-comece-o-seu-curso-e-pague-quando-puder!.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.section-card {
+  height: 500px;
+  width: 100%;
+  background-color: cornflowerblue;
+
+  display: inline-flex;
+  padding: 30px;
+}
+
+.card1 {
+  position: relative;
+  height: 400px;
+  width: 280px;
+  background-image: url("../images/curso1.png");
+  background-color: #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+
+.card1 > button {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+
+  padding: 20px;
+  right: 33%;
+  margin: 0 auto;
+  bottom: 10px;
+
+  border: none;
+
+  transition: 0.2s;
+  border-radius: 20px;
+
+  font-weight: 900;
+}
+.card1 > button:hover {
+  background-color: #253138;
+  color: #ff113e;
+  cursor: pointer;
+}
+
+.card2 {
+  position: relative;
+  height: 400px;
+  width: 280px;
+
+  background-color: darkgoldenrod;
+
+  margin-right: 50px;
+  background-image: url("../images/curso2.png");
+}
+
+.card2 > button {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+
+  padding: 20px;
+  right: 33%;
+  margin: 0 auto;
+  bottom: 10px;
+  border: none;
+
+  transition: 0.2s;
+  border-radius: 20px;
+
+  font-weight: 900;
+}
+.card2 > button:hover {
+  background-color: #253138;
+  color: #ff113e;
+  cursor: pointer;
+}
+
+.card3 {
+  position: relative;
+  height: 400px;
+  width: 280px;
+
+  background-color: darkslateblue;
+
+  margin-right: 50px;
+  background-image: url("../images/curso3.png");
+}
+
+.card3 > button {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+
+  padding: 20px;
+  right: 33%;
+  margin: 0 auto;
+  bottom: 10px;
+  border: none;
+
+  transition: 0.2s;
+  border-radius: 20px;
+
+  font-weight: 900;
+}
+.card3 > button:hover {
+  background-color: #253138;
+  color: #ff113e;
+  cursor: pointer;
+}
+.card4 {
+  position: relative;
+  height: 400px;
+  width: 880px;
+
+  background-color: indigo;
+
+  margin-right: 50px;
+  background-image: url("../images/curso4.png");
+}
+.card4 > button {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+
+  padding: 20px;
+  right: 0;
+  right: 43%;
+  margin: 0 auto;
+  bottom: 10px;
+  border: none;
+
+  transition: 0.2s;
+  border-radius: 20px;
+
+  font-weight: 900;
+}
+.card4 > button:hover {
+  background-color: #253138;
+  color: #ff113e;
+  cursor: pointer;
+}
+.zap {
+  position: fixed;
+  z-index: 10;
+  height: 60px;
+  width: 60px;
+
+  right: 10px;
+  bottom: 10px;
+
+  background-image: url("../images/zapzap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
