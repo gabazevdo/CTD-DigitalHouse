@@ -1,5 +1,6 @@
 <h1 align="center">1 ͦ Checkpoint de Programação Imperativa!</h1>
 
+
 <p>Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
 </p>
 
@@ -27,5 +28,7 @@ Opção | Prato  | Tempo preparo| -'.::.'-
 <h2>Atividade finalizada</h2>
 
 <p>Constrí o código de uma maneira que o usuário possa interagir.</p>
-<p>Mas pretendo (e irei) fazer de uma forma que possa ser utilizado apenas no terminal e inserindo valores diretamente no código</p>
 - Pra testar <a href="https://checkpoint1-microondas.netlify.app/">clique aqui</a>.
+
+<br>
+<p>Construído também para ser utilizado apenas no terminal/console. O arquivo é o <a href="./microondas.js"> microondas.js </a></p>
