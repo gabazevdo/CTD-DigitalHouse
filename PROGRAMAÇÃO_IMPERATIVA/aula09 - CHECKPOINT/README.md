@@ -31,4 +31,4 @@ Opção | Prato  | Tempo preparo| -'.::.'-
 - Pra testar <a href="https://checkpoint1-microondas.netlify.app/">clique aqui</a>.
 
 <br>
-<p>Construído também para ser utilizado apenas no terminal/console. O arquivo é o <a href="./microondas.js"> microondas.js </a></p>
+- Construído também para ser utilizado apenas no terminal/console. O arquivo é o <a href="./microondas.js"> microondas.js </a>
