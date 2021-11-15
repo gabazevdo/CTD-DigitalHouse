@@ -31,6 +31,10 @@
 
 <p> Para acessar <a href="https://checkpoit1-frontend-turma2.netlify.app/" target="_blank">clique aqui </a></p>
 
+<h3>Print</h3>
+
+![image](https://user-images.githubusercontent.com/16105546/141839958-55c5e301-ea6d-4ee0-9145-faca3e937323.png)
+
 
 Pulicado em:
 
