@@ -229,10 +229,98 @@ iframe {
   margin-bottom: 50px;
 }
 
+/* Secção Mapa */
+
+#map {
+  background-color: #e0e0e0;
+  height: 60vh;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.sectionMap {
+  height: 50vh;
+  width: 100%;
+  background-color: #e0e0e0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#map h2 {
+  color: #004a7f;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 900;
+  font-size: 6rem;
+  margin-bottom: 30px;
+
+  /*Sombreamento na font*/
+  text-shadow: rgb(61, 61, 61) 0.1em 0.1em 0.2em;
+}
+
+.sectionMap iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  border: none;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
 /* FOOTER */
 
 footer {
-  background-color: cadetblue;
-  height: 40vh;
+  height: 12vh;
   width: 100%;
+  background-color: #004a7f;
+  position: relative;
+}
+
+footer .voltarTopo {
+  height: 50px;
+  width: 50px;
+  color: #002641;
+  background-color: rgba(0, 0, 0, 0.219);
+  text-decoration: none;
+
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voltarTopo a {
+  text-decoration: none;
+  color: #002641;
+}
+
+.voltarTopo img {
+  height: 50%;
+  width: 50%;
+  margin-left: 12px;
+}
+
+.redesSociais {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 8vh;
+  width: 15%;
+
+  display: flex;
+}
+
+.iconesRedes a img {
+  height: 50px;
+  margin: 10px;
 }

@@ -24,3 +24,14 @@
 </ol>
 
 </div>
+
+---
+
+<h2>Atividade Finalizada</h2>
+
+<p> Para acessar <a href="https://checkpoit1-frontend-turma2.netlify.app/" target="_blank">clique aqui </a></p>
+
+
+Pulicado em:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f21af11-5e52-44f6-bdbf-36c728cfbc7f/deploy-status)](https://app.netlify.com/sites/checkpoit1-frontend-turma2/deploys)
