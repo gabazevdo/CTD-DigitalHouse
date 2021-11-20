@@ -5,8 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aula 14</title>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-      
+    <main>
+      <form action="" method="POST">
+        <div class="linhaDivisoria"></div>
+        <h1>Doceria da Nina</h1>
+        <div class="linhaDivisoria"></div>
+
+        <section class="containerProdutos">
+          <div class="containerDoces">
+            <div class="imgDoce">
+              <img src="./image/minichurros.png" alt="" />
+            </div>
+
+            <div class="containerQnt">
+              <div class="inputSelecao">
+                <label for="minichurros"> <span> Mini churros </span> </label>
+                <div class="linhaDivQnt"></div>
+              </div>
+
+              <div class="selecaoQnt">
+                <input type="checkbox" id="minichurros" />
+                <label for="quantidade-itens-minichurros">Qnt</label>
+                <input
+                  type="number"
+                  min="0"
+                  name="quantidade-itens"
+                  id="quantidade-itens-minichurros"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="containerDoces">
+            <div class="imgDoce">
+              <img src="./image/doisamores.png" alt="" />
+            </div>
+
+            <div class="containerQnt">
+              <div class="inputSelecao">
+                <label for="doisamores"> <span> Dois Amores </span> </label>
+                <div class="linhaDivQnt"></div>
+              </div>
+
+              <div class="selecaoQnt">
+                <input type="checkbox" id="doisamores" />
+                <label for="quantidade-itens-doisamores">Qnt</label>
+                <input
+                  type="number"
+                  min="0"
+                  name="quantidade-itens"
+                  id="quantidade-itens-doisamores"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="containerDoces">
+            <div class="imgDoce">
+              <img src="./image/beijinho.png" alt="" />
+            </div>
+
+            <div class="containerQnt">
+              <div class="inputSelecao">
+                <label for="beijinho"> <span> Beijinho </span> </label>
+                <div class="linhaDivQnt"></div>
+              </div>
+
+              <div class="selecaoQnt">
+                <input type="checkbox" id="beijinho" />
+                <label for="quantidade-itens-beijinho">Qnt</label>
+                <input
+                  type="number"
+                  min="0"
+                  name="quantidade-itens"
+                  id="quantidade-itens-beijinho"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="containerDoces">
+            <div class="imgDoce">
+              <img src="./image/brigadeiro.png" alt="" />
+            </div>
+
+            <div class="containerQnt">
+              <div class="inputSelecao">
+                <label for="brigadeiro"> <span> Brigadeiro </span> </label>
+                <div class="linhaDivQnt"></div>
+              </div>
+
+              <div class="selecaoQnt">
+                <input type="checkbox" id="brigadeiro" />
+                <label for="quantidade-itens-brigadeiro">Qnt</label>
+                <input
+                  type="number"
+                  min="0"
+                  name="quantidade-itens"
+                  id="quantidade-itens-brigadeiro"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGAMENTO -->
+        <section class="pagamento">
+          <h2>Entrega</h2>
+
+          <div class="dadosUsuario">
+            <div class="nome-usuario">
+              <label for="nome-usuario">Nome:</label>
+              <input type="text" name="nome" id="nome-usuario" />
+            </div>
+            <div class="nome-usuario">
+              <label for="endereco-usuario">Endereço:</label>
+              <input type="text" name="nome" id="endereco-usuario" />
+            </div>
+          </div>
+
+          <h2>Pagamento</h2>
+          <div class="tipo-pagamento">
+
+            <div>
+              <input type="radio" name="forma-pgto" id="pgto-cartao" />
+              <label for="pgto-cartao"> Crédito</label>
+            </div>
+
+            <div>
+              <input type="radio" name="forma-pgto" id="pgto-debito" />
+              <label for="pgto-debito"> Débito</label>
+            </div>
+
+            <div>
+              <input type="radio" name="forma-pgto" id="pgto-pix" />
+              <label for="pgto-pix"> Pix </label>
+            </div>
+
+            <div>
+              <input type="radio" name="forma-pgto" id="dinheiro" />
+              <label for="dinheiro"> Dinheiro </label>
+            </div>
+          </div>
+        </section>
+      </form>
+    </main>
   </body>
 </html>

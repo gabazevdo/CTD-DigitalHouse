@@ -1,5 +1,160 @@
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 90vh;
+  width: 40%;
+  background-color: #FDD692;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+}
+
+form{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+h1 {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #EC7357;
+}
+.linhaDivisoria {
+  background-color: #754F44;
+  width: 100%;
+  height: 2px;
+}
+
+.containerProdutos {
+  width: 100%;
+  margin-top: 5%;
+  height: 45%;
+}
+
+.containerDoces {
+  display: flex;
+  background-color: #fff;
+
+  height: 8vh;
+  margin: 5px 0;
+  border-radius: 10px;
+
+
+}
+
+.imgDoce {
+  margin: 0 5px;
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+}
+
+.linhaDivQnt {
+  margin: 5px 0;
+  height: 1px;
+  background-color: #fff;
+}
+
+.containerQnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FBFFB9;
+
+  font-size: 0.9rem;
+  width: 90%;
+}
+.selecaoQnt{
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.selecaoQnt :nth-child(3){
+
+width: 60px;
+margin-left: 5px;
+}
+
+span {
+  font-weight: 600;
+  margin-left: 5px;
+}
+.inputSelecao{
+  text-align: left;
+}
+
+label{
+  margin-left: 5px;
+}
+
+
+.pagamento{
+  padding: 15px 0;
+  height: 30vh;
+  background-color: #FBFFB9;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+h2{
+  font-size: 1.3rem;
+  color: #754F44;
+  margin: 10px;
+}
+
+.dadosUsuario{
+  display: flex;
+}
+
+.dadosUsuario label{
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.dadosUsuario input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px #754F44 solid ;
+}
+
+.nome-usuario{
+  margin: 10px;
+  color: #754F44;
+}
+
+.tipo-pagamento{  
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: px 0;
+  color: #754F44;
 }
