@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 16</title>
+    <link rel="stylesheet" href="./css/styled.css" />
+  </head>
+  <body>
+    <div class="atividade">
+      <h2>Exercício 1</h2>
+    </div>
+
+    <div class="hover">
+      <h2>Pseudoelemento</h2>
+      <h3>:hover</h3>
+      <div class="div-generica">Utilizado na tag button</div>
+
+      <button>HOVER</button>
+    </div>
+
+    <div class="first-letter">
+      <h2>Pseudoelemento</h2>
+      <h3>::fist-letter</h3>
+      <div class="div-generica">Utilizando na tag p</div>
+
+      <p>Alterando a primeira</p>
+      <p>letra de cada</p>
+      <p>paragrafo,</p>
+      <p>aumentando seu tamanho e</p>
+      <p>mudando sua cor</p>
+    </div>
+
+    <div class="focus">
+      <h2>Pseudoelemento</h2>
+      <h3>:focus</h3>
+      <div class="div-generica">Utilizando na tag input</div>
+      <input class="nome" value="Esse elemento ficará vermelho quando focado" />
+      <input
+        class="sobrenome"
+        value="Esse elemento ficará verde-limão quando focado"
+      />
+    </div>
+
+    <div class="checked">
+      <h2>Pseudoelemento</h2>
+      <h3>:checked</h3>
+      <div class="div-generica">Utilizando em input tipo checkbox</div>
+      <label for="checked">
+        Selecionando o checkbox, irá se mover e aumentar de tamanho</label
+      >
+      <input id="checked" type="checkbox" />
+    </div>
+
+    <div class="nth-child">
+      <h2>Pseudoelemento</h2>
+      <h3>:nth-child</h3>
+      <div class="div-generica">
+        Utilizando nas tags span e em (tag em serve para dar ênfase ao texto)
+      </div>
+
+      <h4>
+        <code>span:nth-child(2n+1)</code>, SEM um <code>&lt;em&gt;</code> entre
+        os elementos filhos.
+      </h4>
+      <p>Os filhos 1, 3, 5 e 7 são selecionados.</p>
+      <div class="primeiro">
+        <span>Span 1!</span>
+        <span>Span 2</span>
+        <span>Span 3!</span>
+        <span>Span 4</span>
+        <span>Span 5!</span>
+        <span>Span 6</span>
+        <span>Span 7!</span>
+      </div>
+
+      <br />
+
+      <h4>
+        <code>span:nth-child(2n+1)</code>, COM um <code>&lt;em&gt;</code> entre
+        os elementos filhos.
+      </h4>
+      <p>
+        Os filhos 1, 5 e 7 são selecionados.<br />
+        O 3 está incluído na contagem por ser um filho, mas não é selecionado
+        porque ele não é um <code>&lt;span&gt;</code>.
+      </p>
+      <div class="segundo">
+        <span>Span!</span>
+        <span>Span</span>
+        <em>Este é um `em`.</em>
+        <span>Span</span>
+        <span>Span!</span>
+        <span>Span</span>
+        <span>Span!</span>
+        <span>Span</span>
+      </div>
+
+      <br />
+
+      <h4>
+        <code>span:nth-of-type(2n+1)</code>, COM um
+        <code>&lt;em&gt;</code> entre os elementos filhos.
+      </h4>
+      <p>
+        Os filhos 1, 4, 6 e 8 são selecionados.<br />
+        O 3 não está incluso na contagem nem é selecionado porque ele é um
+        <code>&lt;em&gt;</code>, não um <code>&lt;span&gt;</code>, e
+        <code>nth-of-type</code> seleciona apenas os filhos desse último tipo. O
+        <code>&lt;em&gt;</code> é completamente pulado e ignorado.
+      </p>
+      <div class="terceiro">
+        <span>Span!</span>
+        <span>Span</span>
+        <em>Este é um `em`.</em>
+        <span>Span!</span>
+        <span>Span</span>
+        <span>Span!</span>
+        <span>Span</span>
+        <span>Span!</span>
+      </div>
+    </div>
+
+    <div class="disable">
+      <h2>Pseudoelemento</h2>
+      <h3>:disable</h3>
+      <div class="div-generica">
+        Utilizando nas tags fieldset - legend - input (tag fildset é usado para
+        agrupar elementos)
+      </div>
+
+      <fieldset>
+        <legend>inputs habilitados</legend>
+        <input type="text" placeholder="Nome" />
+        <input type="text" placeholder="Sobrenome" />
+        <input type="text" placeholder="Endereço" />
+      </fieldset>
+
+      <fieldset>
+        <legend>inputs desabilitados</legend>
+
+        <input type="text" placeholder="Nome" disabled />
+        <input type="text" placeholder="Sobrenome" disabled />
+        <input type="text" placeholder="Endereço" disabled />
+      </fieldset>
+    </div>
+
+    <div class="enable">
+      <h2>Pseudoelemento</h2>
+      <h3>:enable</h3>
+      <div class="div-generica">
+        Utilizando nas tags fieldset - label - input
+      </div>
+
+      <fieldset action="#">
+        <label for="FirstField">Primeiro campo (hablitado):</label>
+        <input type="text" id="FirstField" value="Lorem" />
+
+        <label for="SecondField">Segundo campo (desabilitado):</label>
+        <input type="text" id="SecondField" value="Ipsum" disabled="disabled" />
+      </fieldset>
+    </div>
+
+    <div class="atividade">
+      <h2>Exercício 2 - Desafio</h2>
+    </div>
+
+    <div class="after">
+      <h2>Pseudoelemento</h2>
+      <h3>:after</h3>
+      <div class="div-generica">Utilizando na tag p</div>
+      <p class="boring-text">Aqui está algum texto simples e chato.</p>
+      <p>Aqui está um texto normal que não é chato nem empolgante.</p>
+      <p class="exciting-text">
+        Contribuir com o MDN é fácil e divertido. Basta clicar no botão de
+        edição para adicionar novas amostras ao vivo ou melhorar as amostras
+        existentes
+      </p>
+    </div>
+
+    <div class="before">
+        <h2>Pseudoelemento</h2>
+        <h3>:before</h3>
+        <div class="div-generica">Utilizando na tag ul li</div>
+        <ul>
+            <li>Comprar Leite</li>
+            <li>Levar o cachorro para passear</li>
+            <li>Exercitar-se</li>
+            <li>Escrever codigo</li>
+            <li>Tocar musica</li>
+            <li>Relaxar</li>
+          </ul>
+    </div>
+  
+<div class="selection">
+    <h2>Pseudoelemento</h2>
+    <h3>:selection</h3>
+    <div class="div-generica">Utilizando na tag p</div>
+<p class="select1">Selecione essa frase</p>
+<p class="select2">Agora selecione essa frase </p>
+</div>
+</body>
+
+
+
+
+
+  <script>
+    var list = document.querySelector("ul");
+    list.addEventListener(
+      "click",
+      function (ev) {
+        if (ev.target.tagName === "LI") {
+          ev.target.classList.toggle("done");
+        }
+      },
+      false
+    );
+  </script>
+</html>

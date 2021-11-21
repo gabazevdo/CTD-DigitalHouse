@@ -1,0 +1,248 @@
+/*Configurações CSS e tags html*/
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 900;
+
+  /* :hover */
+}
+
+.div-generica {
+  padding-bottom: 10px;
+}
+.atividade h2 {
+  background-color: orange;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 45px;
+}
+
+/* :hover */
+
+.hover {
+  background-color: orchid;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.hover button {
+  border: none;
+  padding: 25px;
+  width: 200px;
+  background-color: rgb(160, 69, 157);
+  color: orchid;
+
+  font-weight: 900;
+  border-radius: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+.hover button:hover {
+  cursor: pointer;
+  background-color: rgb(131, 43, 128);
+  color: #ffff;
+
+  border-radius: 0px 20px 0px 20px;
+}
+
+/* ::first-letter */
+
+.first-letter {
+  background-color: plum;
+  margin: 5px 0;
+  padding: 10px;
+}
+.first-letter p::first-letter {
+  /* Use :first-letter if você precise muito de compatibilidade com IE 8 */
+  color: red;
+  font-size: 130%;
+}
+
+/* :focus */
+.focus {
+  background-color: silver;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.focus input {
+  height: 30px;
+  width: 300px;
+}
+.nome:focus {
+  color: red;
+}
+
+.sobrenome:focus {
+  color: green;
+}
+
+/* :checked ( */
+
+.checked {
+  background-color: lightsalmon;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.checked input:checked {
+  margin-left: 250px;
+  width: 50px;
+  height: 50px;
+  color: maroon;
+}
+
+/* :nth-chikd()*/
+
+.nth-child {
+  background-color: rgb(108, 218, 108);
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.nth-child span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.primeiro span:nth-child(2n + 1),
+.segundo span:nth-child(2n + 1),
+.terceiro span:nth-of-type(2n + 1) {
+  background-color: green;
+}
+
+/* :disable */
+
+.disable {
+  background-color: lightskyblue;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.disable input[type="text"]:disabled {
+  background: #ccc;
+}
+
+.disable fieldset {
+  background: rgb(174, 223, 253);
+}
+
+.disable legend {
+  color: darkblue;
+  font-weight: 900;
+}
+
+/* :enabled */
+
+.enable {
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.enable input:enabled {
+  color: maroon;
+}
+
+.enable input:disabled {
+  color: #aaa;
+}
+
+.enable label {
+  display: block;
+}
+
+/*  DESAFIO */
+
+.after {
+  background-color: yellowgreen;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.after .exciting-text::after {
+  content: "<- isso é emocionante!";
+  color: green;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.after .boring-text::after {
+  content: "<- chato!";
+  color: red;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+/* before */
+
+.before {
+  background-color: tomato;
+  padding: 10px;
+  margin: 5px 0;
+  user-select: none;
+}
+
+.before li {
+  list-style-type: none;
+  position: relative;
+  margin: 2px;
+  padding: 0.5em 0.5em 0.5em 2em;
+  background: #84b94f;
+
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.before li.done {
+    background: #ccff99;
+
+}
+
+.before li.done::before {
+  content: "";
+  position: absolute;
+  border-color: #009933;
+  border-style: solid;
+  border-width: 0 0.3em 0.25em 0;
+  height: 1em;
+  top: 1.3em;
+  left: 0.6em;
+  margin-top: -1em;
+  transform: rotate(45deg);
+  width: 0.5em;
+}
+
+/* :selection */
+
+.selection {
+  background-color: lightsteelblue;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.selection p{
+    font-size: 20px;
+}
+
+.select1::selection {
+  color: gold;
+  background-color: red;
+}
+
+.select2::selection {
+  color: red;
+  background-color: lime;
+}
