@@ -29,3 +29,10 @@ Opção | Prato  | Tempo preparo| -'.::.'-
 
 - Construí o código de uma maneira que o usuário possa interagir. Pra testar <a href="https://checkpoint1-microondas.netlify.app/">clique aqui</a>.
 - Construído também para ser utilizado apenas no terminal/console. O arquivo é o <a href="./microondas.js"> microondas.js </a>
+
+
+---
+
+<h2> Avaliação </h2>
+
+<img src="unnamed.png">
