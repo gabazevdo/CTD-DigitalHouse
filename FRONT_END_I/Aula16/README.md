@@ -54,4 +54,5 @@ O conteúdo dessa atividadee assim como a utilização foram pesquisados em: <a 
 
 
 <p>Puclicado:</p>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7da9c3dc-aae6-4151-9bbe-f639cd443f00/deploy-status)](https://app.netlify.com/sites/aula16-frontend/deploys)
