@@ -31,8 +31,8 @@ Opção | Prato  | Tempo preparo| -'.::.'-
 - Construído também para ser utilizado apenas no terminal/console. O arquivo é o <a href="./microondas.js"> microondas.js </a>
 
 
----
 
 <h2> Avaliação </h2>
+<img src="https://user-images.githubusercontent.com/16105546/142776968-b41fe826-df05-45e5-abe2-89d640cca667.png" />
 
-<img src="unnamed.png">
+
