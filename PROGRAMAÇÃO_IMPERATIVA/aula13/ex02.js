@@ -16,15 +16,42 @@ informações:
 ● Saldo em $ (valor apenas)
 ● Titular da conta (nome completo)
 
+
 Com essa informação em mente, somos solicitados a fazer o seguinte.
 1. Pense na melhor forma de representar tais contas, e por quê? (discutir coma
 equipe sobre as diferentes estruturas e qual é a mais conveniente)
+*/
 
-2
-2. Uma vez decidido qual será o tipo de dados para representar as contas das
+let dadosBancarios = {
+    numeroConta: 0,
+    tipoConta: "corrente",
+    saldo:0,
+    titularConta: " ",
+}
+
+function DadosBancarios(nConta, tipo, sConta, ttConta ){
+    this.numeroConta = nConta;
+    this.tipoConta = tipo;
+    this.saldo = sConta;
+    this.titularConta = ttConta
+}
+
+console.log(dadosBancarios)
+const contaNova = new DadosBancarios(1234567, "C/C", 10.00,"Gabriel Azevedo")
+console.log(contaNova)
+
+
+const contaNova2 = new DadosBancarios(123, "C/C", 100.00,"Denilson Silva")
+console.log(contaNova2)
+
+
+/*2. Uma vez decidido qual será o tipo de dados para representar as contas das
 contas, crie uma conta de teste e verifique se as propriedades mencionadas
 acima são criadas corretamente.
-3. Agora que sabemos como representar usuários e suas contas, o cliente nos
+*/
+
+
+/*3. Agora que sabemos como representar usuários e suas contas, o cliente nos
 forneceu uma lista de contas que devemos ser capazes de criar. Para isso,
 devemos gerar uma função construtora que facilite a criação das contas
 bancárias correspondentes mais rapidamente.
@@ -85,4 +112,6 @@ Crie o objeto do aluno,que consistirá nas seguintes propriedades básicas:
 Gostaríamos de calcular a média do aluno e se ela é aprovada com base em uma nota
 de aprovação que será dada. Para este exercício vamos deixar você pensar sobre
 todos os métodos e propriedades que podem ser necessários para que nosso
-programa funcione corretamente da maneira solicitada. */
+programa funcione corretamente da maneira solicitada.
+*/
+
