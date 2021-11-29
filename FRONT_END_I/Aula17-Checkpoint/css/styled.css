@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*HEADER*/
+header {
+    height: 8vh;
+    width: 100%;
+    background-color: #004a7f;
+    padding: 0 5%;
+
+    /*Utlizei display flex*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*Para ficar fixado no top durante a rolagem da página*/
+
+    box-shadow: 2px 0 40px rgba(0, 0, 0, 0.9);
+}
+
+/*NAVEGAÇÃO*/
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+}
+
+nav ul li a {
+    font: 700 1rem sans-serif;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 2rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #004a7f;
+    background-color: #f2f2f2;
+}
+
+/* SEÇÃO INICIAL*/
+.sectionInicial {
+    background-image: url("../image/rotatoriaItapevi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+h1 {
+    /*"Empurrando" a fonte para baixo*/
+    margin-top: 10%;
+    /* color: hsla(205, 100%, 25%, 0.822); */
+    color: rgba(255, 255, 255, 0.329);
+
+    font-family: "Patrick Hand", cursive;
+    font-size: 14rem;
+
+    /*Sombreamento na font*/
+    text-shadow: #bebebe 0.1em 0.1em 0.4em;
+
+    /*Contorno na font*/
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #002641;
+}
+.sectionInicial h2 {
+    font-family: "Merienda", cursive;
+    color: #004a7f;
+    font-size: 6rem;
+
+    /*Sombreamento na font*/
+    text-shadow: #000 0.1em 0.1em 0.2em;
+
+    /*Contorno na font*/
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #002641;
+}
+
+.divSection {
+    height: 10vh;
+    width: 100%;
+    padding: 0 20%;
+    color: #fff;
+    background-color: rgba(0, 38, 65, 0.808);
+    margin-top: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: 1.4rem;
+}
+
+/* SEÇÃO VÍDEO */
+
+#video {
+    background-color: rgba(64, 224, 208);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 0;
+    background-image: url("../image/fundoAside.jpg");
+}
+
+#video h2 {
+    font-family: "Patrick Hand", cursive;
+    color: #fff;
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 50px;
+}
+
+iframe {
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 0 10em #000;
+    border-radius: 20px;
+}
+
+/*  SEÇÃO LEGAL*/
+
+#legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    background-image: url("../image/patterns.png");
+}
+
+.containerDivlegal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#legal h2 {
+    color: #002641;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 50px;
+
+    /*Sombreamento na font*/
+    text-shadow: rgb(61, 61, 61) 0.1em 0.1em 0.2em;
+}
+.sectionLegal {
+    height: 50vh;
+    width: 50vh;
+    margin: 20px;
+}
+
+.sectionLegal img {
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 0 10em #000;
+    animation-name: fade;
+    animation-duration: 1s;
+    transition: 0.3s;
+}
+.sectionLegal img:hover {
+    transform: scale(1.1);
+}
+
+/*Seção curiosidades*/
+
+#curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    background-color: cornflowerblue;
+}
+
+.sectionCuriosidades {
+    height: 30vh;
+    width: 50vh;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sectionCuriosidades img {
+    width: 100%;
+    height: 80%;
+    box-shadow: 0 0 10em #000;
+}
+
+.sectionCuriosidades p {
+    color: #fff;
+    margin: 5px;
+}
+
+.sectionCuriosidades a {
+    text-decoration: none;
+}
+
+#curiosidades h2 {
+    font-family: "Patrick Hand", cursive;
+    color: #fff;
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 50px;
+}
+
+/*  Seção Formulário pg principal*/
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1F4FB;
+    height: 100vh;
+    width: 100%;
+    padding: 0 5%;
+}
+
+#formulario h2{
+    color: #004a7f;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 30px;
+
+    /*Sombreamento na font*/
+    text-shadow: rgb(61, 61, 61) 0.1em 0.1em 0.2em;
+}
+
+#formulario h3{
+      color: #D45C2A;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+}
+
+.container-form{
+  display: flex;
+  height: 90%;
+  width: 100%;
+  background-color:#F1F4FB; 
+}
+.texto-form{
+  height:100%;
+  width: 50%;
+  background-color:#FFF;
+  border-radius:50px 0 0 50px; 
+  padding: 5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+.linha-divisao{
+  height: 2px;
+  width:90%;
+  background-color:#D45C2A; 
+  margin: 20px 0 100px 0;
+}
+.texto-form p{
+  padding-top: 20px;
+  font-size: 30px;
+    font-family: "Patrick Hand", cursive;
+  
+}
+
+.buttonForm {
+    margin-top:100px;
+    padding: 15px 60px;
+  background-color: #555BA5;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+  color: #FFF;
+    transition: .3s;
+}
+
+.buttonForm:hover{
+    background-color: #343383;
+    color: #fff;
+    transform: scale(1.5);
+  
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.imagem-form{
+  background-image: url("../image/imgFormulario.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+
+}
+
+/* Seção Mapa */
+
+#map {
+    background-color: #F1F4FB;
+    height: 60vh;
+    width: 100%;
+    padding: 0 15%;
+}
+
+.sectionMap {
+    height: 50vh;
+    width: 100%;
+    background-color: #F1F4FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionMap iframe {
+    margin-top: 100px;
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+/* FOOTER */
+
+footer {
+    height: 12vh;
+    width: 100%;
+    background-color: #004a7f;
+    position: relative;
+}
+
+footer .voltarTopo {
+    height: 50px;
+    width: 50px;
+    color: #002641;
+    background-color: rgba(0, 0, 0, 0.219);
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltarTopo a {
+    text-decoration: none;
+    color: #002641;
+}
+
+.voltarTopo img {
+    height: 50%;
+    width: 50%;
+    margin-left: 12px;
+}
+
+.redesSociais {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 8vh;
+    width: 15%;
+    display: flex;
+}
+
+.iconesRedes a img {
+    height: 50px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.iconesRedes a img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    height: 80px;
+}
+
+/* PÁGINA DO FORMULÁRIO  */
+.container-page-formulario {
+    width: 100%;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.623);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-formulario {
+    display: flex;
+    width: 80%;
+    min-height: 65vh;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    flex-direction: column;
+    align-items: center;
+    padding: 7em;
+    box-sizing: border-box;
+    justify-content: center;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+}
+
+.div-formulario,
+form {
+    width: 100%;
+    display: flex;
+    gap: 6%;
+}
+
+.coluna {
+    width: 100%;
+}
+
+.linha {
+    display: flex;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+
+.linha-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+.linha-text:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+input {
+    width: 100%;
+}
+
+input:focus {
+    color: rgb(0, 38, 65);
+    outline-color: rgb(0, 38, 65);
+}
+
+textarea {
+    height: 15vh;
+    width: 100%;
+    padding: 15px;
+    background-color: #f2f2f2;
+
+    border: none;
+    outline: 2 auto;
+
+    text-align: left;
+    border-radius: 1em;
+}
+[type="text"],
+[type="email"],
+[type="date"],
+[type="tel"] {
+    background-color: #f2f2f2;
+    height: 3em;
+    border: none;
+    outline: 2 auto;
+    padding: 0 10px;
+    width: 90%;
+    text-align: left;
+    border-radius: 1em;
+}
+[type="checkbox"],
+[type="radio"] {
+    width: unset;
+}
+
+select {
+    background-color: #f2f2f2;
+    height: 3em;
+    border: none;
+    outline: 2 auto;
+    padding: 0 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    gap: 0.5em;
+}
+
+option {
+    font-size: 20px;
+    background-color: #f2f2f2;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1em;
+}
+
+.btn-1 {
+    font-family: Patrick hand;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: ease-out 200ms;
+    margin-right: 1em;
+    padding: 1em 2em;
+}
+
+.btn-1:hover {
+    transform: scale(1.2);
+    background-color: rgb(0, 38, 65);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+[type="submit"] {
+    background-color: rgb(0, 38, 65);
+    color: whitesmoke;
+}

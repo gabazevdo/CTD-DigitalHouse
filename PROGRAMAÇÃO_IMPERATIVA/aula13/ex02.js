@@ -22,58 +22,102 @@ Com essa informação em mente, somos solicitados a fazer o seguinte.
 equipe sobre as diferentes estruturas e qual é a mais conveniente)
 */
 
-let dadosBancarios = {
-    numeroConta: 0,
-    tipoConta: "corrente",
-    saldo:0,
-    titularConta: " ",
-}
-
-function DadosBancarios(nConta, tipo, sConta, ttConta ){
-    this.numeroConta = nConta;
-    this.tipoConta = tipo;
-    this.saldo = sConta;
-    this.titularConta = ttConta
-}
-
-console.log(dadosBancarios)
-const contaNova = new DadosBancarios(1234567, "C/C", 10.00,"Gabriel Azevedo")
-console.log(contaNova)
-
-
-const contaNova2 = new DadosBancarios(123, "C/C", 100.00,"Denilson Silva")
-console.log(contaNova2)
-
+console.log(`
+1) Em uma discursão, chegamos no entendimento que, inicialmente iremos utilizar um objeto literal para representar cada cliente com sua respectiva conta`)
 
 /*2. Uma vez decidido qual será o tipo de dados para representar as contas das
 contas, crie uma conta de teste e verifique se as propriedades mencionadas
 acima são criadas corretamente.
 */
-
-
+let dadosBancarios = {
+    numeroConta: 1234.4,
+    tipoConta: "C/C",
+    saldoConta:100.00,
+    titularConta: "Gabriel Azevedo",
+}
+console.log(`
+2) Teste do tipo de conta:
+    Conta: ${dadosBancarios.numeroConta}
+    Tipo: ${dadosBancarios.tipoConta}
+    Saldo: ${dadosBancarios.saldoConta}
+    Titular: ${dadosBancarios.titularConta}
+            `)
 /*3. Agora que sabemos como representar usuários e suas contas, o cliente nos
 forneceu uma lista de contas que devemos ser capazes de criar. Para isso,
 devemos gerar uma função construtora que facilite a criação das contas
 bancárias correspondentes mais rapidamente.
+*/
+
+function NovaConta(nConta, tipoConta, saldo, titularConta){
+    this.numeroConta = nConta
+    this.tipoConta = tipoConta
+    this.saldoConta = saldo
+    this.titularConta = titularConta
+}
+
+const cliente1 = new NovaConta(5486273622, "Conta Corrente", 27771, "Abigael Natte")
+const cliente2 = new NovaConta(1183971869, "Conta Poupança", 8675, "Ramon Connell")
+const cliente3 = new NovaConta(9582019689, "Conta Poupança", 27363, "Jarret Lafuente")
+const cliente4 = new NovaConta(1761924656, "Conta Poupança", 32415, "Ansel Ardley")
+const cliente5 = new NovaConta(7401971607, "Conta Poupança", 18789, "Jacki Shurmer")
+const cliente6 = new NovaConta(630841470, "Conta Corrente", 28776, "Jobi Mawtus")
+const cliente7 = new NovaConta(4223508636, "Conta Corrente", 2177, "Thomasin Latour")
+const cliente8 = new NovaConta(185979521, "Conta Poupança", 25994, "Lonnie Verheijden")
+const cliente9 = new NovaConta(3151956165, "Conta Corrente", 7601, "Alonso Wannan")
+const cliente10 = new NovaConta(2138105881, "Conta Poupança", 33196, "Bendite Huggett")
+
+/*
+
 O líder tecnológico está muito feliz com nosso trabalho até agora. A essa altura já
 temos um banco de dados com 10 clientes do banco, provavelmente alojados em 10
 variáveis diferentes (assumindo que cada variável é um objeto que foi criado com
 uma função construtora). A partir disso, eles nos pedem as seguintes características.
+
+
 4. A partir dos 10 usuários, gereuma lista onde todos eles convergem (lista de
 objetos)
+*/
+
+let contasBancarias = [cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente8, cliente9, cliente10]
+
+/*
 5. Também nos pedem a criação de um objeto literal chamado banco que terá
 uma propriedade chamada clientes, ele será composto pela lista de objetos
 gerados no ponto anterior.
+*/
+
+const banco = {
+    clientes: contasBancarias, 
+
+    consultarCliente(titular){
+        for(let cliente of this.clientes){
+            if(cliente.titularConta == titular){
+                return cliente
+            }else
+            return "Não existe"
+        }
+    }
+}
+console.log(banco.consultarCliente("Ramon Connell"))
+
+/*
+
 6. o objeto do banco criará um método chamado consultarCliente que receberá um
 nome (titular) por parâmetro e deve pesquisar na lista de contas e retornar ao
 objeto do cliente que corresponde a esse nome inserido.
+
+
 7. Crie outro método chamado depósito que receberá como parâmetros, o titular
 da conta e uma quantidade de dinheiro para depositar. O método deve chegar
 à conta correspondente e, em seguida, adicionar a quantidade de dinheiro para
 depositar o saldo da conta, então você deve dar um aviso pelo console com a
 mensagem &quot;Depósito realizado, seu novo saldo é: xxx&quot; .
+
+
 8. Crie um último método chamado saque que também receberá dois
 parâmetros, o titular da conta e o valor a ser extraído. O método deve obter a
+
+
 
 3
 conta correspondente e subtrair o valor do saldo atual. Caso o resultado seja

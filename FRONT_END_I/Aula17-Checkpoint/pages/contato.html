@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Checkpoint 2</title>
+	<link href="../css/styled.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<img src="../image/logoItapevi.png" alt="Logo da prefeitura da cidade de Itapevi" />
+            <nav>
+                <ul>
+                    <li><a href="../index.html">INÍCIO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container-page-formulario">
+            <section class="section-formulario">
+                <div class="div-formulario">
+                    <form action="/cadastro" method="POST">
+                        <div class="coluna">
+                            <fieldset>
+                                <div class="linha-text">
+                                    <label for="name"><h4>Nome</h4></label>
+                                    <input type="text" id="name" name="nome" maxlength="100" size="15" required />
+                                </div>
+
+                                <div class="linha-text">
+                                    <label for="email"><h4>Email</h4></label>
+                                    <input type="email" id="email" size="30" required />
+                                </div>
+
+                                <div class="linha-text">
+                                    <label for="telefone"><h4>Telefone</h4></label>
+                                    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" />
+                                </div>
+
+                                <div class="linha-text">
+                                    <label for="nascimento"><h4>Data de nascimento</h4></label>
+                                    <input type="date" id="nascimento" name="nascimento" />
+                                </div>
+
+                                <div class="linha">
+                                    <h4>Maior de idade?</h4>
+                                    <input type="radio" id="menor" name="maior_idade" value="menor" />
+                                    <label for="menor">Não</label>
+                                    <input type="radio" id="maior" name="maior_idade" value="maior" />
+                                    <label for="maior">Sim</label>
+                                </div>
+
+                                <div class="linha">
+                                    <h4>Gênero:</h4>
+                                    <input type="radio" id="masculino" name="genero" value="masculino" />
+                                    <label for="masculino">Masculino</label>
+
+                                    <input type="radio" id="feminino" name="genero" value="femenino" />
+                                    <label for="feminino">Feminino</label>
+
+                                    <input type="radio" id="nao-binario" name="genero" value="nao-binario" />
+                                    <label for="nao-binario">Não binário</label>
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <div class="coluna">
+                            <fieldset>
+                                <div class="linha">
+                                    <h4>Selecione seus interesses na cidade:</h4>
+                                </div>
+
+                                <div class="linha">
+                                    <input type="checkbox" id="turista" name="turista" />
+                                    <label for="turista">Turista</label>
+                                    <input type="checkbox" id="estudante" name="estudante" />
+                                    <label for="estudante">Estudante</label>
+                                    <input type="checkbox" id="residente" name="residente" />
+                                    <label for="residente">Residente</label>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <div class="linha">
+                                    <h4>Ponto de interesse na cidade:</h4>
+                                </div>
+
+                                <select name="ponto_interes" id="select-interesse" required>
+                                    <option selected>Selecione</option>
+                                    <optgroup label="Turista">
+                                        <option value="opt1">Prainha de Itapevi</option>
+                                        <option value="opt2">West Side Gallery</option>
+                                        <option value="opt3">Praça do Nordeste</option>
+                                    </optgroup>
+                                    <optgroup label="Estudante">
+                                        <option value="opt4">Etec</option>
+                                        <option value="opt5">Senai</option>
+                                        <option value="opt6">Ginásio de Esportes</option>
+                                    </optgroup>
+                                    <optgroup label="Residente">
+                                        <option value="opt7">Mirante</option>
+                                        <option value="opt8">Pq. das Rosas</option>
+                                        <option value="opt9">Centro</option>
+                                    </optgroup>
+                                </select>
+
+                                <div class="linha-text">
+                                    <label for="name"><h4>Deixe uma mensagem</h4></label>
+                                    <textarea rows="10" cols="40" maxlength="500" placeholder="Máximo de    500 caractéries"></textarea>
+                                </div>
+
+                                <div class="linha">
+                                    <input type="checkbox" id="turista" name="turista" />
+                                    <label for="turista">Desejo receber informações, dicas e convites</label>
+                                </div>
+
+                                <div class="botoes">
+                                    <button class="btn-1" type="reset">Limpar</button>
+                                    <button class="btn-1" type="submit">Enviar</button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
