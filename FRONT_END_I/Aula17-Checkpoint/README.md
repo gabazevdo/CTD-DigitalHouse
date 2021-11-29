@@ -33,16 +33,27 @@ Suba o trabalho no Github e no GitPages ou no Replit e envie o link pelo formul√
 
 <h2>Atividade Finalizada</h2>
 
-<p>Atividade feita em grupo:</p>
+<details>
+  <summary> Para acessar</summary>
+<p><a href="https://checkpoint2-frontend-turma2.netlify.app/" target="_blank">clique aqui </a></p>
+</details>
 
+
+<h2>Atividade feita em grupo:</h2>
+
+<details>
+  <summary>Quem participou?</summary>
 Eu,
 <a href="https://github.com/nicolorenzo">Nico</a>
+e 
 <a href="">Kristy</a>
+</details>
+  
+<h2>Print</h2>
 
-<p> Para acessar <a href="https://checkpoint2-frontend-turma2.netlify.app/" target="_blank">clique aqui </a></p>
+![image](https://user-images.githubusercontent.com/16105546/143945269-453e4ce7-b602-464d-a402-ba286211dd5b.png)
 
-<h3>Print</h3>
-
+![image](https://user-images.githubusercontent.com/16105546/143945311-b603e546-3c36-4d1c-9215-76d99b4087e8.png)
 
 
 
