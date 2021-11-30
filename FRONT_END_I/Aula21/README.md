@@ -5,6 +5,7 @@
 
 <p>Agora que sabemos como utilizar o Flex e Grid, vamos exercitar esse nosso novo conhecimento realizando a construção do seguinte Layout:</p>
 
+![image](https://user-images.githubusercontent.com/16105546/143984300-3933b60b-fd15-4b0a-a74d-f20c75a60dca.png)
 
 
 <div>
@@ -44,5 +45,8 @@ e
 </details>
   
 <h2>Print</h2>
+
+![image](https://user-images.githubusercontent.com/16105546/143984373-694c4f54-546d-4e6f-996f-7c3d26bf7761.png)
+
 
 
