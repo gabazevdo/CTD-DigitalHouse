@@ -1,0 +1,56 @@
+.logoDH {
+  padding-top: 2rem !important;
+}
+
+.modal-body {
+  padding: 2rem 2rem 4rem 2rem !important;
+}
+.btn-block {
+  margin-top: 4rem !important;
+}
+.bg-container {
+  height: calc(100vh - 8.5vh);
+  background-image: url("../images/bgHome.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+.container-header-css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-interno-css {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+
+.btn-css a{
+  width: 252px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+
+@media (max-width: 768px) {
+  .container-interno-css {
+    width: 90vw !important;
+  }
+}

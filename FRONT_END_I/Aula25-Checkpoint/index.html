@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font welsome -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logoDH.png" alt="" />
+      </a>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#conteudoNavbarSuportado"
+          aria-controls="conteudoNavbarSuportado"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto font-weight-bold">
+            <li class="nav-item active">
+              <a class="nav-link text-danger" href="#"
+                >Home <span class="sr-only">(página atual)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Itens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#ExemploModalCentralizado"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="ExemploModalCentralizado"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <img
+            src="./images/logoDH.png"
+            class="logoDH mx-auto"
+            width="200"
+            alt="Logo Digital House"
+          />
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Seu email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >Nunca vamos compartilhar seu email, com ninguém.</small
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">Senha</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Senha"
+                />
+                <small id="exampleInputPassword1" class="form-text text-muted">
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Lembre-se de mim</label
+                    >
+                  </div>
+                </small>
+              </div>
+
+              <button type="submit" class="btn btn-success btn-block">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <!-- css-container-header / estilizado via css -->
+    <header class="bg-primary bg-container container-header-css">
+      <!-- container-css / estilizado via css -->
+      <div class="container container-css">
+        <!-- container-interno-css / estilizado via css -->
+        <div class="container-interno-css">
+          <div>
+            <h1 class="text-danger font-weight-bold h1-css">DH Flix</h1>
+            <p class="text-white-50 mb-4 lead">
+              Confira a maior coletânea de filmes que a Digital House tem a te
+              oferecer
+            </p>
+          </div>
+
+          <div class="btn-css">
+            <a
+              href="#"
+              onclick="exibirMensagem()"
+              class="btn btn-outline-success"
+              >Explorar</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      function exibirMensagem() {
+        var data = new Date();
+        alert(`
+            Você clicou.
+
+            E ainda...
+            
+            ...Não funcionou`);
+      }
+    </script>
+  </body>
+</html>
