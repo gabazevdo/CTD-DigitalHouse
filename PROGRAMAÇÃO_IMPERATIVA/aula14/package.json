@@ -1,0 +1,14 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "Iniciando atividade sobre modulos",
+  "main": "modulo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabazevdo",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
