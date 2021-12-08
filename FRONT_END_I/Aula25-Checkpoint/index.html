@@ -17,17 +17,17 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <title>Hello, world!</title>
+    <title>Checkpoint</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">
         <img src="./images/logoDH.png" alt="" />
       </a>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbar-toggler-right collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#conteudoNavbarSuportado"
@@ -46,7 +46,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Itens</a>
+              <a class="nav-link" href="#itens">Itens</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Sobre nós</a>
@@ -156,16 +156,448 @@
           </div>
 
           <div class="btn-css">
-            <a
-              href="#"
-              onclick="exibirMensagem()"
-              class="btn btn-outline-success"
-              >Explorar</a
-            >
+            <a href="#itens" class="btn btn-outline-success">Explorar</a>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- Iniciando conteúdo -->
+    <!-- Seção com Filmes -->
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <h2 id="itens" class="text-center py-5 font-weight-bold">Itens</h2>
+        <div class="row">
+          <!-- Filme 1 -->
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: capitão América o primeiro vingador"
+                src="https://play-lh.googleusercontent.com/lmNAlam3aulYTde69Hi52FH5LAnvm0D75xd2r4mhmGtA_uhaXexhYULz7Fpivx5MrrjJ=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Capitão América: O Primeiro Vingador</h3>
+                <p class="card-text">2011 - 124 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Capit%C3%A3o_Am%C3%A9rica_O_Primeiro_Vingador?id=83BC734B66A82E47MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Filme 2 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: capitã Marvel"
+                src="https://play-lh.googleusercontent.com/jlM1kH1F6AyO2NBYbXh1ZfVj353zZUqWGrbgzKhEQ_R_ItJjZU-x4hjqFzzOkBpJ7Ok=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Capitã Marvel</h3>
+                <p class="card-text">2019 - 128 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Capit%C3%A3_Marvel?id=C3D94C0F9B5FD2DAMV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 3 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: homem de ferro 1"
+                src="https://play-lh.googleusercontent.com/0ndm1P8m0KSoX8nfkd8GGJai4PG0iqmM3u_4MdMEgSC7l9dy1axQ7qPEUnAScf4qoV0=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Homem de Ferro</h3>
+                <p class="card-text">2008 - 126 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Iron_Man?id=5F7B25A451520B00MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 4 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: incrível Hulk"
+                src="https://play-lh.googleusercontent.com/vXRQo9yYMBDpCl--RBf5K1Tw3SWbnHZIrp0xMq5_1uM5NyRMGekCpUIbpuCjhrWq_R9yUA=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Incrível Hulk</h3>
+                <p class="card-text">2008 - 112 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/O_Incr%C3%ADvel_Hulk?id=GJIJkDC_k_8&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 5 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: homem de ferro 1"
+                src="https://play-lh.googleusercontent.com/proxy/42v_C78bWqCwugc7i3I2Ftks5mmRBOR04uUPxp1djZdFOc5cb_5qT-94kSpF6HhukiljIgz-2ZlylTn29s5-Mxr3bTV0IDU8CdiUVA-WeAHPB1oDC-_j9jo94EUAFL6XOJnbeIw94NwogiIHI42Zuo0Gnk0TUA61cv8G_w=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Homem de Ferro 2</h3>
+                <p class="card-text">2010 - 124 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Homem_de_Ferro_2?id=A07A3E8D79B46863MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 6 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Thor 1"
+                src="https://play-lh.googleusercontent.com/proxy/QBRdFj9zaBQGXvTgOBkzNwJSTUHaAiNqGpqvM83hCM5BOHZs9f6ermmtBQeoK4_yS3oAQ3spz0qbUT12ceMwIcmsL1fd7JSfKhM7rIKIdCayYPmqmc_Khr6D2zdze7Ggs8jwBMnAZ34yR3Jnfp0xOoI4b9BSpN54D39m5Q=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Thor</h3>
+                <p class="card-text">2011 - 114 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Thor?id=64D026EA1EDE3295MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 7 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Thor 1"
+                src="https://play-lh.googleusercontent.com/SU4yDFoRhT8kFcuIaGkjk85iAV1_nbWkKFgXPyKASJGG_eNwmZ5Wmm_T4N_23YMiQniw=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Os Vingadores</h3>
+                <p class="card-text">2012 - 137 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Marvel_s_The_Avengers_Os_Vingadores?id=B0CBB0E857F4132FMV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 8 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Homem de Ferro 3"
+                src="https://play-lh.googleusercontent.com/mXIGbVuRIqfDvnTVOXep9tJLwqRdCiUdzC5OD1PZ32w9EloZ8rqpr_kE8J7kPTCdmXk=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Homem de Ferro 3</h3>
+                <p class="card-text">2013 - 130 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Homem_de_Ferro_3?id=4886DB5F7D1C848CMV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Filme 9 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Thor: O Mundo Sombrio "
+                src="https://play-lh.googleusercontent.com/rfcglA03HikJtrWIJI2-XclKBrCFh-jbXsgWQTL8rST2M6T41lc7Oj6OwuPKPxy-A1SS=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Thor: O Mundo Sombrio</h3>
+                <p class="card-text">2013 - 112 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Thor_O_Mundo_Sombrio?id=4AD1DD37F2341DD3MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Filme 10 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Capitão América 2  "
+                src="https://play-lh.googleusercontent.com/kJEVF_5owF3bpLuNURT8t8vDpLPwBFMxpVWYYe4cmc5Z_SU8R5mwdPYm_CM_eU3o5qElBA=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Capitão América 2</h3>
+                <p class="card-text">2014 - 136 minutos - Ação e aventura</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Capit%C3%A3o_Am%C3%A9rica_2_O_Soldado_Invernal?id=41F39F88755FA379MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 11 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Guardiões da Galáxia  "
+                src="https://play-lh.googleusercontent.com/proxy/zjzN2oH0OM9-HuA9xUGTwcy4gBY_Eys1EktJn4FK7f-CLqs_n2wH_kGPY1eZf1wnyOSlnkPmpdy_T6wp6NUen-VSZkFHZy2wFwQNfdfYu18IAYudluOSYGh0fZoxV4gcORAi7L0vV0U0KGre9N2Qd6xXiIficvplakFH_w=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Guardiões da Galáxia</h3>
+                <p class="card-text">2014 - 121 minutos - Comédia</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia?id=FA6C97B1EFD22996MV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filme 12 -->
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="img-thumbnail img-fluid"
+                alt="Poster do filme: Guardiões da Galáxia 2  "
+                src="https://play-lh.googleusercontent.com/proxy/oDm7x_afgqreTXxRliX1WRPMlbZW3B0FI57RWf-FT6H-K8Fym7e423jyK00uQgellvlbyakT9yJE64sz9e57Barzr8YtEK5SZwrTUI_x8eaxmj9ZDq6QBXDTvaLi8r9H3DPR917XFiuhCLjplSt5GLyYqO5g1eQnpy189A=w200-h300-rw"
+              />
+              <div class="card-body">
+                <h3 class="card-text">Guardiões da Galáxia Vol. 2</h3>
+                <p class="card-text">2017 - 137 minutos - Comédia</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a
+                    href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia_Vol_2?id=56483CB919687BCBMV&hl=pt_BR&gl=BR"
+                    target="_blank"
+                    class="btn btn-outline-success"
+                    >Ver mais</a
+                  >
+                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fim dos cards de filmes -->
+        </div>
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            posuere erat a ante.
+          </p>
+          <footer class="blockquote-footer">
+            Alguém famoso na
+            <cite title="Título da fonte">Título da fonte</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+
+    
+<!-- Footer -->
+<footer class="page-footer font-small text-white bg-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+  <hr>
+
+  
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-secondary">© Checkpoint 3 desenvolvido em 2021
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- https://mdbootstrap.com/docs/b4/jquery/navigation/footer/ -->
+<!-- Footer -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -183,6 +615,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Função para informar que algo foi clicado. 
+    Para utilizar, é só colocar em uma tag o onClick: onClick="exibirMensagem()" -->
     <script type="text/javascript">
       function exibirMensagem() {
         var data = new Date();

@@ -1,3 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+
 .logoDH {
   padding-top: 2rem !important;
 }
@@ -9,8 +16,9 @@
   margin-top: 4rem !important;
 }
 .bg-container {
-  height: calc(100vh - 8.5vh);
-  background-image: url("../images/bgHome.png");
+  
+  height: 100vh ;
+  background-image: url("../images/bgHome.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,7 +56,9 @@
   justify-content: center;
   color: #FFF;
 }
-
+.bg-css{
+  background-color: #000;
+}
 @media (max-width: 768px) {
   .container-interno-css {
     width: 90vw !important;
