@@ -1,99 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_BR">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Font welsome -->
+    <!-- Bootstrap CSS -->
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Checkpoint</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Checkpoint 3 frontend</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">
-        <img src="./images/logoDH.png" alt="" />
-      </a>
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- INÍCIO NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./image/logoDH.png" alt="" />
+        </a>
         <button
-          class="navbar-toggler navbar-toggler-right collapsed"
+          class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#conteudoNavbarSuportado"
-          aria-controls="conteudoNavbarSuportado"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
-          aria-label="Alterna navegação"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto font-weight-bold">
+        <div class="collapse navbar-collapse fw-bold  " id="navbarResponsive">
+          <ul class="navbar-nav ms-auto ">
             <li class="nav-item active">
-              <a class="nav-link text-danger" href="#"
-                >Home <span class="sr-only">(página atual)</span></a
-              >
+              <a class="nav-link text-danger" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#itens">Itens</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre nós</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
                 href="#"
-                data-toggle="modal"
-                data-target="#ExemploModalCentralizado"
                 >Login</a
               >
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     </nav>
+    <!-- FIM NAVEGAÇÃO-->
 
-    <!-- Modal -->
+    <!-- INÍCIO MODAL -->
     <div
       class="modal fade"
-      id="ExemploModalCentralizado"
+      id="exampleModal"
       tabindex="-1"
-      role="dialog"
-      aria-labelledby="TituloModalCentralizado"
+      aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <button
               type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Fechar"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <img
-            src="./images/logoDH.png"
-            class="logoDH mx-auto"
+            src="./image/logoDH.png"
+            class="logoDH mx-auto mt-5"
             width="200"
             alt="Logo Digital House"
           />
 
-          <div class="modal-body">
+          <div class="modal-body p-4">
             <form>
               <div class="form-group">
                 <label for="exampleInputEmail1">Endereço de email</label>
@@ -109,7 +101,7 @@
                 >
               </div>
 
-              <div class="form-group">
+              <div class="form-group pt-3">
                 <label for="exampleInputPassword1">Senha</label>
                 <input
                   type="password"
@@ -131,7 +123,7 @@
                 </small>
               </div>
 
-              <button type="submit" class="btn btn-success btn-block">
+              <button type="submit" class="btn btn-success w-100 mt-5">
                 Enviar
               </button>
             </form>
@@ -139,35 +131,40 @@
         </div>
       </div>
     </div>
+    <!-- FIM MODAL -->
 
-    <!-- HEADER -->
-    <!-- css-container-header / estilizado via css -->
-    <header class="bg-primary bg-container container-header-css">
-      <!-- container-css / estilizado via css -->
-      <div class="container container-css">
-        <!-- container-interno-css / estilizado via css -->
-        <div class="container-interno-css">
-          <div>
-            <h1 class="text-danger font-weight-bold h1-css">DH Flix</h1>
-            <p class="text-white-50 mb-4 lead">
-              Confira a maior coletânea de filmes que a Digital House tem a te
-              oferecer
-            </p>
-          </div>
-
-          <div class="btn-css">
-            <a href="#itens" class="btn btn-outline-success">Explorar</a>
+    <!-- BANNER INICIAL -->
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-start d-flex justify-content-center">
+            <div class="flex-column p-4">
+              <h1 class="text-danger fw-bold">DH Flix</h1>
+              <p class="text-white-50 mb-4 lead">
+                Confira a maior coletânea de filmes que a Digital House tem a te
+                oferecer
+              </p>
+              <div class="row w-100 align-items-center">
+                <a
+                  href="#itens"
+                  class="btn btn-outline-success w-50 p-3 mx-auto"
+                  >Explorar</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </header>
+    <!-- FIM BANNER INICIAL -->
 
-    <!-- Iniciando conteúdo -->
-    <!-- Seção com Filmes -->
-
-    <div class="album py-5 bg-light">
+    <!-- SEÇÃO CONTEÚDO FILMES -->
+    <section class="album bg-section">
       <div class="container">
-        <h2 id="itens" class="text-center py-5 font-weight-bold">Itens</h2>
+        <h2 id="itens" class="text-center py-5 fw-bold text-white">
+          Itens
+          <hr>
+        </h2>
         <div class="row">
           <!-- Filme 1 -->
           <div class="col-md-4">
@@ -184,7 +181,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Capit%C3%A3o_Am%C3%A9rica_O_Primeiro_Vingador?id=83BC734B66A82E47MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -208,7 +205,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Capit%C3%A3_Marvel?id=C3D94C0F9B5FD2DAMV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -233,7 +230,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Iron_Man?id=5F7B25A451520B00MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning btn-banner"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -258,7 +255,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/O_Incr%C3%ADvel_Hulk?id=GJIJkDC_k_8&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -283,7 +280,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Homem_de_Ferro_2?id=A07A3E8D79B46863MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -308,7 +305,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Thor?id=64D026EA1EDE3295MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -333,7 +330,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Marvel_s_The_Avengers_Os_Vingadores?id=B0CBB0E857F4132FMV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -358,7 +355,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Homem_de_Ferro_3?id=4886DB5F7D1C848CMV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -382,7 +379,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Thor_O_Mundo_Sombrio?id=4AD1DD37F2341DD3MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -406,7 +403,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Capit%C3%A3o_Am%C3%A9rica_2_O_Soldado_Invernal?id=41F39F88755FA379MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -431,7 +428,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia?id=FA6C97B1EFD22996MV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -456,7 +453,7 @@
                   <a
                     href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia_Vol_2?id=56483CB919687BCBMV&hl=pt_BR&gl=BR"
                     target="_blank"
-                    class="btn btn-outline-success"
+                    class="btn btn-outline-warning"
                     >Ver mais</a
                   >
                   <small class="text-muted">⭐⭐⭐⭐⭐</small>
@@ -467,166 +464,22 @@
 
           <!-- Fim dos cards de filmes -->
         </div>
-        <blockquote class="blockquote text-center">
-          <p class="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.
-          </p>
-          <footer class="blockquote-footer">
-            Alguém famoso na
-            <cite title="Título da fonte">Título da fonte</cite>
-          </footer>
-        </blockquote>
+       
       </div>
-    </div>
+    </section>
+    <!-- FIM CONTEÚDO FILMES -->
+
+    <!-- FOOTER -->
+    <footer class="">
+
+    </footer>
+    <!-- FIM FOOTER -->
 
     
-<!-- Footer -->
-<footer class="page-footer font-small text-white bg-dark pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-
-  <hr>
-
-  
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3 bg-secondary">© Checkpoint 3 desenvolvido em 2021
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- https://mdbootstrap.com/docs/b4/jquery/navigation/footer/ -->
-<!-- Footer -->
-
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Função para informar que algo foi clicado. 
-    Para utilizar, é só colocar em uma tag o onClick: onClick="exibirMensagem()" -->
-    <script type="text/javascript">
-      function exibirMensagem() {
-        var data = new Date();
-        alert(`
-            Você clicou.
-
-            E ainda...
-            
-            ...Não funcionou`);
-      }
-    </script>
   </body>
 </html>
