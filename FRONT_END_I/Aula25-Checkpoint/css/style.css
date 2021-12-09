@@ -2,13 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.masthead {
+/**********************/
+/*        HOME       */
+/********************/
+
+.masthead-home {
   height: 100vh;
   min-height: 500px;
-  background-image: url("../image/bgHome.jpg");
+  background-image: url("../image/bgHome.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .navbar-toggler {
   border: none !important;
@@ -24,10 +29,31 @@ html {
 }
 .bg-nav{
   background-color: #010101;
-
 }
 
 #itens{
     padding-top: 15vh !important;
+}
+
+@media (max-width: 992px){
+.info-footer{
+  text-align: left !important;
+  
+}
+}
+
+
+/**********************/
+/*       SOBRE       */
+/********************/
+
+.masthead-sobre {
+  height: 70vh;
+  min-height: 500px;
+  background-image: url("../image/img_film.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }

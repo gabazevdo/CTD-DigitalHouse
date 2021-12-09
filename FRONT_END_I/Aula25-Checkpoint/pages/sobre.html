@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Link font awesome para utlizar ícones  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Sobre</title>
+  </head>
+  <body>
+    <!-- INÍCIO NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../image/logoDH.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fw-bold" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-danger" href="../index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                href="#"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- FIM NAVEGAÇÃO-->
+
+    <!-- INÍCIO MODAL -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../image/logoDH.png"
+            class="logoDH mx-auto mt-5"
+            width="200"
+            alt="Logo Digital House"
+          />
+
+          <div class="modal-body p-4">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Seu email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >Nunca vamos compartilhar seu email, com ninguém.</small
+                >
+              </div>
+
+              <div class="form-group pt-3">
+                <label for="exampleInputPassword1">Senha</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Senha"
+                />
+                <small id="exampleInputPassword1" class="form-text text-muted">
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Lembre-se de mim</label
+                    >
+                  </div>
+                </small>
+              </div>
+
+              <button type="submit" class="btn btn-success w-100 mt-5">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIM MODAL -->
+
+    <!-- BANNER INICIAL -->
+    <div class="py-5 bg-image-full masthead-sobre">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-start d-flex justify-content-center">
+            <div class="flex-column p-4">
+              <h1 class="text-white mb-4 fw-bold">Sobre</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIM BANNER INICIAL -->
+
+    <!-- INÍCIO SEÇÃO SOBRE  -->
+    <section  id="sobre" class="py-5">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <h2>Checkpoint 03 - Front End I</h2>
+
+            <p class="lead pt-5">Objetivo</p>
+            <p class="mb-0">
+              Ficamos muito felizes com sua jornada até aqui, pois foram muitos
+              desafios e conteúdos que você precisou aprender para que você
+              chegasse até este momento.
+            </p>
+            <p class="mb-0">
+              Essa etapa do curso é onde você vai usar todo seu conhecimento
+              adquirido até aqui. Não apenas o conhecimento técnico, mas também
+              o trabalho em equipe, organização, foco e persistência.
+            </p>
+
+            <p class="lead pt-5">Instruções</p>
+            <p class="mb-0">
+              Esse projeto apesar de ter um tema que será definido pelo grupo
+              (até 3 integrantes), deverá cumprir algumas exigências.
+            </p>
+            <div class="row pt-5">
+              <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a
+                    class="list-group-item list-group-item-action active"
+                    id="list-requisitos-list"
+                    data-bs-toggle="list"
+                    href="#list-requisitos"
+                    role="tab"
+                    aria-controls="list-requisitos"
+                    >Requisitos gerais</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-header-list"
+                    data-bs-toggle="list"
+                    href="#list-header"
+                    role="tab"
+                    aria-controls="list-header"
+                    >Header</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-banner-list"
+                    data-bs-toggle="list"
+                    href="#list-banner"
+                    role="tab"
+                    aria-controls="list-banner"
+                    >Banner</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-itens-list"
+                    data-bs-toggle="list"
+                    href="#list-itens"
+                    role="tab"
+                    aria-controls="list-itens"
+                    >Itens</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-footer-list"
+                    data-bs-toggle="list"
+                    href="#list-footer"
+                    role="tab"
+                    aria-controls="list-footer"
+                    >Footer</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-detalhes-list"
+                    data-bs-toggle="list"
+                    href="#list-detalhes"
+                    role="tab"
+                    aria-controls="list-detalhes"
+                    >Página detahe</a
+                  >
+
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-modal-list"
+                    data-bs-toggle="list"
+                    href="#list-modal"
+                    role="tab"
+                    aria-controls="list-modal"
+                    >Modal de login</a
+                  >
+                </div>
+              </div>
+
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="list-requisitos"
+                    role="tabpanel"
+                    aria-labelledby="list-requisitos-list"
+                  >
+                    <ul >
+                      <li type="a">Todo o site deve estar responsivo.</li>
+                      <li type="a">O site deve ser feito com Bootstrap.</li>
+                      <li type="a">O site deve ter hover e transições</li>
+                      <li type="a">
+                        O site deve ter rolagem suave (scroll behavior -
+                        smooth).
+                      </li>
+                      <li type="a">
+                        O title deve variar de acordo com a página atual. Ex: Em
+                        um cenário
+                      </li>
+                      <li type="a">
+                        hipotético de filmes, na página do filme peter pan
+                        ficaria: DH Flix | Peter Pan.
+                      </li>
+                      <li type="a">
+                        Todas as páginas devem ter o mesmo header e footer.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show "
+                    id="list-header"
+                    role="tabpanel"
+                    aria-labelledby="list-header-list"
+                  >
+                    <ul>
+                      <li type="a">
+                        Header deve conter 4 itens além da logo (Home, itens,
+                        login e sobre nós). Cada item deve linkar com uma parte
+                        do site ou uma página externa.
+                      </li>
+                      <li type="a">O header deverá sempre estar no topo da página.</li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show "
+                    id="list-banner"
+                    role="tabpanel"
+                    aria-labelledby="list-banner-list"
+                  >
+                    <ul>
+                      <li type="a">
+                        A home deverá ter um banner e este deve ter o efeito
+                        parallax, (pesquise por background-attachment).
+                      </li>
+                      <li type="a">
+                        O banner tem de ter um botão e uma breve descrição do
+                        site.
+                      </li>
+                      <li type="a">
+                        O banner vai ocupar toda área da viewport (VH) do
+                        usuário.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show "
+                    id="list-itens"
+                    role="tabpanel"
+                    aria-labelledby="list-itens-list"
+                  >
+                    <ul>
+                      <li type="a">A home terá uma listagem de itens.</li>
+                      <li type="a">
+                        O link do header para os itens, devem levar para essa
+                        seção da página.
+                      </li>
+                      <li type="a">
+                        A listagem dos itens tem de ter um scale no hover, mas
+                        se quiser fazer outra animação, também pode.
+                      </li>
+                      <li type="a">Mínimo de itens para listagem é 6.</li>
+                      <li type="a">
+                        Os itens devem ter: título, foto, descrição e um botão
+                        que leva para a página de detalhe deste item.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show "
+                    id="list-footer"
+                    role="tabpanel"
+                    aria-labelledby="list-footer-list"
+                  >
+                    <ul>
+                      <li type="a">
+                        No footer deve haver informações sobre a equipe e sobre
+                        contato. Bem como ano de desenvolvimento do trabalho.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show"
+                    id="list-detalhes"
+                    role="tabpanel"
+                    aria-labelledby="list-detalhes-list"
+                  >
+                    <ul>
+                      <li type="a">
+                        Seu site tem de ter uma página de detalhes para cada
+                        item listado onde haverá uma explicação sobre o mesmo.
+                        No exemplo dos filmes, a página de um filme teria sua
+                        sinopse, link para o trailer e ficha técnica.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div
+                    class="tab-pane fade show"
+                    id="list-modal"
+                    role="tabpanel"
+                    aria-labelledby="list-modal-list"
+                  >
+                    <ul>
+                      <li type="a">
+                        Formulário de login deverá ter uma logo, um campo de
+                        user e um campo de senha e um botão de submit.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FIM SEÇÃO SOBRE  -->
+
+    <!-- FOOTER -->
+    <footer class="footer pt-sm-5 pt-4 bg-dark">
+      <div class="container pt-3 p-4">
+        <div class="row pb-sm-2 d-flex justify-content-between">
+          <!-- Aluno 1 -->
+          <div class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">
+              Gabriel Azevedo Silva
+            </h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </li>
+            </ul>
+            <a
+              href="https://www.linkedin.com/in/gabazevdo/"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              href="https://github.com/gabazevdo"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </div>
+          <!-- Aluno 2 -->
+
+          <div
+            class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4 text-center info-footer"
+          >
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">
+              Victor Bianche
+            </h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </li>
+            </ul>
+            <a
+              href="https://google.com"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </div>
+          <!-- Aluno 3 -->
+          <div class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4 text-end info-footer">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Aluno 3</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </li>
+            </ul>
+
+            <a
+              href="https://google.com"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              class="
+                btn-social
+                bs-solid bs-light
+                me-2
+                link-secondary
+                text-decoration-none
+              "
+            >
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="border-top border-secundary text-center">
+        <div class="container py-4">
+          <div class="fs-xs text-light">
+            <span class="fs-sm">© </span>
+            Checkpoint 3 desenvolvido em 2021
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FIM FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

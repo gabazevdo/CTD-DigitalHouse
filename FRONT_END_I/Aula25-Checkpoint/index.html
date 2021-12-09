@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Link font awesome para utlizar ícones  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -14,11 +16,12 @@
     />
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Checkpoint 3 frontend</title>
+    <title>Home</title>
   </head>
   <body>
     <!-- INÍCIO NAVEGAÇÃO -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top ">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./image/logoDH.png" alt="" />
@@ -34,8 +37,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse fw-bold  " id="navbarResponsive">
-          <ul class="navbar-nav ms-auto ">
+        <div class="collapse navbar-collapse fw-bold" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
               <a class="nav-link text-danger" href="#">Home</a>
             </li>
@@ -43,7 +46,7 @@
               <a class="nav-link" href="#itens">Itens</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="./pages/sobre.html" target="_blank">Sobre nós</a>
             </li>
             <li class="nav-item">
               <a
@@ -134,13 +137,13 @@
     <!-- FIM MODAL -->
 
     <!-- BANNER INICIAL -->
-    <header class="masthead">
+    <header class="masthead-home">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-start d-flex justify-content-center">
             <div class="flex-column p-4">
               <h1 class="text-danger fw-bold">DH Flix</h1>
-              <p class="text-white-50 mb-4 lead">
+              <p class="text-white mb-4 lead fw-bold">
                 Confira a maior coletânea de filmes que a Digital House tem a te
                 oferecer
               </p>
@@ -163,7 +166,7 @@
       <div class="container">
         <h2 id="itens" class="text-center py-5 fw-bold text-white">
           Itens
-          <hr>
+          <hr />
         </h2>
         <div class="row">
           <!-- Filme 1 -->
@@ -314,168 +317,77 @@
             </div>
           </div>
 
-          <!-- Filme 7 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Thor 1"
-                src="https://play-lh.googleusercontent.com/SU4yDFoRhT8kFcuIaGkjk85iAV1_nbWkKFgXPyKASJGG_eNwmZ5Wmm_T4N_23YMiQniw=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Os Vingadores</h3>
-                <p class="card-text">2012 - 137 minutos - Ação e aventura</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Marvel_s_The_Avengers_Os_Vingadores?id=B0CBB0E857F4132FMV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Filme 8 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Homem de Ferro 3"
-                src="https://play-lh.googleusercontent.com/mXIGbVuRIqfDvnTVOXep9tJLwqRdCiUdzC5OD1PZ32w9EloZ8rqpr_kE8J7kPTCdmXk=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Homem de Ferro 3</h3>
-                <p class="card-text">2013 - 130 minutos - Ação e aventura</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Homem_de_Ferro_3?id=4886DB5F7D1C848CMV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Filme 9 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Thor: O Mundo Sombrio "
-                src="https://play-lh.googleusercontent.com/rfcglA03HikJtrWIJI2-XclKBrCFh-jbXsgWQTL8rST2M6T41lc7Oj6OwuPKPxy-A1SS=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Thor: O Mundo Sombrio</h3>
-                <p class="card-text">2013 - 112 minutos - Ação e aventura</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Thor_O_Mundo_Sombrio?id=4AD1DD37F2341DD3MV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Filme 10 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Capitão América 2  "
-                src="https://play-lh.googleusercontent.com/kJEVF_5owF3bpLuNURT8t8vDpLPwBFMxpVWYYe4cmc5Z_SU8R5mwdPYm_CM_eU3o5qElBA=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Capitão América 2</h3>
-                <p class="card-text">2014 - 136 minutos - Ação e aventura</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Capit%C3%A3o_Am%C3%A9rica_2_O_Soldado_Invernal?id=41F39F88755FA379MV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Filme 11 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Guardiões da Galáxia  "
-                src="https://play-lh.googleusercontent.com/proxy/zjzN2oH0OM9-HuA9xUGTwcy4gBY_Eys1EktJn4FK7f-CLqs_n2wH_kGPY1eZf1wnyOSlnkPmpdy_T6wp6NUen-VSZkFHZy2wFwQNfdfYu18IAYudluOSYGh0fZoxV4gcORAi7L0vV0U0KGre9N2Qd6xXiIficvplakFH_w=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Guardiões da Galáxia</h3>
-                <p class="card-text">2014 - 121 minutos - Comédia</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia?id=FA6C97B1EFD22996MV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Filme 12 -->
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img
-                class="img-thumbnail img-fluid"
-                alt="Poster do filme: Guardiões da Galáxia 2  "
-                src="https://play-lh.googleusercontent.com/proxy/oDm7x_afgqreTXxRliX1WRPMlbZW3B0FI57RWf-FT6H-K8Fym7e423jyK00uQgellvlbyakT9yJE64sz9e57Barzr8YtEK5SZwrTUI_x8eaxmj9ZDq6QBXDTvaLi8r9H3DPR917XFiuhCLjplSt5GLyYqO5g1eQnpy189A=w200-h300-rw"
-              />
-              <div class="card-body">
-                <h3 class="card-text">Guardiões da Galáxia Vol. 2</h3>
-                <p class="card-text">2017 - 137 minutos - Comédia</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://play.google.com/store/movies/details/Guardi%C3%B5es_da_Gal%C3%A1xia_Vol_2?id=56483CB919687BCBMV&hl=pt_BR&gl=BR"
-                    target="_blank"
-                    class="btn btn-outline-warning"
-                    >Ver mais</a
-                  >
-                  <small class="text-muted">⭐⭐⭐⭐⭐</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!-- Fim dos cards de filmes -->
         </div>
-       
       </div>
     </section>
     <!-- FIM CONTEÚDO FILMES -->
 
     <!-- FOOTER -->
-    <footer class="">
+    <footer class="footer pt-sm-5 pt-4 bg-dark">
+      <div class="container pt-3 p-4">
+        <div class="row pb-sm-2 d-flex justify-content-between">
+<!-- Aluno 1 -->
+          <div class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Gabriel Azevedo Silva</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </li>
+            </ul>
+            <a href="https://www.linkedin.com/in/gabazevdo/"  target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-linkedin fa-lg "></i>
+            </a>
+            <a href="https://github.com/gabazevdo" target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-github  fa-lg"></i>
+            </a>
+          </div>
+<!-- Aluno 2 -->
 
+          <div class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4 text-center info-footer">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Victor Bianche</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </li>
+            </ul>
+            <a href="https://google.com" target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-linkedin fa-lg "></i>
+            </a>
+            <a href="https://google.com" target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-github  fa-lg"></i>
+            </a>
+          </div>
+<!-- Aluno 3 -->
+          <div class="col-sm-6 col-lg-3 pb-2 pb-lg-0 mb-4 text-end info-footer">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Aluno 3</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item text-nowrap mb-2">
+                <span class="text-light me-1">Desenvolvedor Front-end</span>
+              </ul>
+            <a href="https://google.com" target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://google.com" target="_blank"  class="btn-social bs-solid bs-light me-2 link-secondary text-decoration-none">
+              <i class="fab fa-github  fa-lg"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    <!-- copyright -->
+      <div class="border-top border-secundary text-center">
+        <div class="container py-4">
+          <div class="fs-xs text-light">
+            <span class="fs-sm">© </span>
+            Checkpoint 3 desenvolvido em 2021
+          </div>
+        </div>
+      </div>
     </footer>
+
     <!-- FIM FOOTER -->
 
-    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
