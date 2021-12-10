@@ -63,7 +63,7 @@
 
 <details>
   <summary> Para acessar</summary>
-<p><a href="https://checkpoint3-frontend.gabazevdo.repl.co/pages/sobre.html" target="_blank">clique aqui </a></p>
+<p><a href="https://checkpoint3-frontend.gabazevdo.repl.co/index.html" target="_blank">clique aqui </a></p>
 </details>
 
 <h2>Atividade feita em grupo:</h2>
