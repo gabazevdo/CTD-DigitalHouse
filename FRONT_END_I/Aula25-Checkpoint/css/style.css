@@ -1,3 +1,7 @@
+/**********************/
+/*       GERAL       */
+/********************/
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +10,7 @@ html {
 /*        HOME       */
 /********************/
 
+/*Definindo tamanho e background do banner*/
 .masthead-home {
   height: 100vh;
   min-height: 500px;
@@ -15,37 +20,50 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*Removendo a borda padrãp do botão */
 .navbar-toggler {
   border: none !important;
 }
-.btn-outline-success{
-    background-color: rgba(25, 135, 84, 0.144);
-    color: #FFF;
-    border-radius: 10px;
+
+/*Efeito no botão do banner*/
+.btn-outline-success {
+  background-color: rgba(25, 135, 84, 0.144);
+  color: #fff;
+  border-radius: 10px;
 }
-.bg-section{
-    background-color: #010101;
-    padding-bottom: 15vh ;
-}
-.bg-nav{
+/*Background para a seção dos cards*/
+.bg-section {
   background-color: #010101;
+  padding-bottom: 15vh;
 }
 
-#itens{
-    padding-top: 15vh !important;
+/*animação nos*/
+.zoom {
+  transition: 0.5s;
 }
 
-@media (max-width: 992px){
-.info-footer{
-  text-align: left !important;
-  
-}
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom)*/
 }
 
+/*Foçando um espaçamento para "empurrar" a seção de itens*/
+#itens {
+  padding-top: 15vh !important;
+}
+
+/* Para alinhamento do footer - se remover ficar bagunçado */
+@media (max-width: 992px) {
+  .info-footer {
+    text-align: left !important;
+  }
+}
 
 /**********************/
 /*       SOBRE       */
 /********************/
+
+/*Definindo tamanho e background do banner na página sobre*/
 
 .masthead-sobre {
   height: 70vh;
@@ -55,5 +73,4 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
