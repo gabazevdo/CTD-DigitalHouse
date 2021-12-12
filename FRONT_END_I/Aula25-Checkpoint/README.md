@@ -1,4 +1,14 @@
+---
 
+<div align="center">
+  <h2>
+  <a href="#instrucoes">Instuções</a> | <a href="#finalizado">Link de acesso</a> | <a href="#grupo">Participantes</a> | <a href="#prints">Prints</a>
+  </h2>
+</div>
+
+---
+
+<br>
 
 <h1>Checkpoint 03 - Front End I - Turma 02</h1>
 
