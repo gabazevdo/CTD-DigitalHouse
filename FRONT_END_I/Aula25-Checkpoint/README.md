@@ -78,7 +78,6 @@
 
 </details>
    
-   <p> Entrega </p>
    
 8. O trabalho poderá seguir o seguinte <a href="https://www.figma.com/file/hSgsjjoM7Mc88WVtQ5i9QV/Checkpoint-3"> wireframe</a>.
 
@@ -95,8 +94,6 @@
 
 
 <h2 id="grupo">Atividade feita em grupo:</h2>
-
-<p> Participantes: </p>
   
   <br>
 <p>
