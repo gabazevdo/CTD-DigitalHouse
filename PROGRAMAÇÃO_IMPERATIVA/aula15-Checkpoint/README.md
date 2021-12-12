@@ -59,10 +59,19 @@ Crie um método para o objeto curso que percorra a lista de estudantes e retorne
 Via npm, intalei o pacote  <a href="https://www.npmjs.com/package/readline-sync"> Readline Sync </a> para fazer a leitura de dados via terminal.
 </div>
 <br>
-<p>Atividade realizada em dupla com o aluno Victor Bianche</p>
 
 ---
 
+<h3>Ativiade Finalizada</h3>
+
+<p> Para ver a execução do código pelo Code Sand Box, <a href="https://codesandbox.io/embed/blue-shape-mt9sg?fontsize=14&hidenavigation=1&theme=dark">clique aqui</a>.
+
+---
+
+<br>
+ 
+<p>Atividade realizada em dupla com o aluno Victor Bianche</p>
+ 
 <br>
 Link para Avaliação: <a href="https://docs.google.com/document/d/1eogP8YTM-zfPFqy4MMadArEM314Dxvq1/edit#heading=h.gjdgxs"> clique aqui </a>
 
