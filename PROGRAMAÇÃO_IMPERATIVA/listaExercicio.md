@@ -1,28 +1,73 @@
-LISTA DE EXERCÍCIOS de programação Imperativa
+<h1>LISTA DE EXERCÍCIOS </h1>
 
-Escreva um programa utilizando a linguagem JS para cada um dos problemas abaixo:
+<h2>Escreva um programa utilizando a linguagem JS para cada um dos problemas abaixo:</h2>
+
+<br>
 
 1. Dado o tamanho da base e da altura de um retângulo, calcular a sua área e o seu perímetro.
 
+~~~ Javascript
+const alturaRetangulo = 10;
+const baseRetangulo = 20
+console.log(`O perímetro do retangulo é: ${2*(alturaRetangulo+baseRetangulo)}`)
+console.log(`A base do retangulo é: ${alturaRetangulo*baseRetangulo}`)
+~~~
+
 2. Dado o tamanho do lado de um quadrado, calcular a área e o perímetro do mesmo.
+~~~Javascript
+const ladoQuadrado = 10;
+console.log(`O perímetro do Quadrado é: ${2*(ladoQuadrado+ladoQuadrado)}`)
+console.log(`A base do Quadrado é: ${ladoQuadrado*ladoQuadrado}`)
+~~~
 
 3. Dado o tamanho do raio de uma circunferência, calcular a área e o perímetro da mesma.
+~~~Javascript
+const raioCircunferencia = 10;
+console.log(`A área do círculo é: ${(Math.PI*raioCircunferencia).toFixed(2)}`)
+console.log(`O perímetro do círculo é: ${((Math.PI*2)*raioCircunferencia).toFixed(2)}`)
+~~~
 
 4. Dado os três lados de um triângulo determinar o perímetro do mesmo.
+~~~Javascript
+const ladoTriangulo = 10;
+console.log(`O perímetro do triângulo é: ${ladoTriangulo*3}`)
+~~~
 
 5. Ler um número inteiro e exibir o seu sucessor.
+~~~Javascript
+const numInteiro = 10;
+console.log(`Variável com o valor ${numInteiro}, seu sucessor é: ${numInteiro+1}`)
+~~~
 
 6. Ler dois números inteiros e exibir o quociente e o resto da divisão inteira entre eles.
+~~~Javascript
+const num1 = 50;
+const num2 = 3;
+console.log(`${num1} / ${num2} = ${(num1/num2).toFixed(2)}. O resto da divisão é ${((num1/num2)%2).toFixed(2)}`)
+~~~
 
 7. Solicitar a idade de uma pessoa em dias e informar na tela a idade em anos, meses e dias.
+~~~Javascript
+const diasVida = 11065;
+const anosVida = ((diasVida/365).toFixed(0));
+const mesesVida = ((anosVida/12).toFixed(0));
+const diasVividos = ((mesesVida/31).toFixed(1));
+console.log(`${diasVida} dias de vida. Sua idade é de ${anosVida} anos, ${mesesVida} meses e ${diasVividos} dias.`)
+~~~
 
-8. Dado que a fórmula para conversão de Fahrenheit para Celsius é JS = 5/9 (F – 32), leu um
-valor de temperatura em Fahrenheit e exibi-lo em Celsius
+8. Dado que a fórmula para conversão de Fahrenheit para Celsius é JS = 5/9 (F – 32), leu um valor de temperatura em Fahrenheit e exibi-lo em Celsius
+~~~Javascript
+const grausF = 89;
+const grausC = ((grausF - 32) * (5/9)).toFixed(2);
+console.log(`Graus em Fahrenheit é ${grausF}. Em Celsius é ${grausC}`)
+~~~
 
-
-11. Faça um algoritmo para calcular a nota semestral de um aluno. A nota semestral é obtida
-pela média aritmética entre a nota de 2 bimestres. Cada nota de bimestre é composta por
-2 notas de provas.
+11. Faça um algoritmo para calcular a nota semestral de um aluno. A nota semestral é obtida pela média aritmética entre a nota de 2 bimestres.
+Cada nota de bimestre é composta por 2 notas de provas.
+~~~Javascript
+const semestre = [8,7]
+console.log(`Nota 1ºBim ${semestre[0]}. Nota 2ºBim ${semestre[1]}. Media semestre: ${(semestre[0]+semestre[1])/semestre.length}`)
+~~~
 
 12. Faça um algoritmo que transforme uma velocidade fornecida em m/s pelo usuário para
 Km/h. Para tal, multiplique o valor em m/s por 3,6.
