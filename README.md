@@ -11,10 +11,10 @@
 ├────── 1-MODULO
 │
 │
-├────── 1-BIMESTRE
-│   ├── PROGRAMACAO-IMPERATIVA
-│   ├── FRONT-END-1
-│   └── METODOLOGIAS-AGEIS
+├────── 1-BIMESTRE - Finalizado em 10/12/2021
+│   ├── PROGRAMACAO-IMPERATIVA - Nota final 10 - (House Lendário)
+│   ├── FRONT-END-1 - Nota final 9.7 - (House Lendário)
+│   └── METODOLOGIAS-AGEIS - - Nota final 10 - (House Lendário)
 │
 ├────── 2-BIMESTRE
 │   ├── 
