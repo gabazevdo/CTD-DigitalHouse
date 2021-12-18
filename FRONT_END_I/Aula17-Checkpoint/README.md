@@ -11,7 +11,7 @@
 O trabalho deve ser realizado em grupo de no máximo 3 pessoas.
 <br>
 <p>O formulário de cadastro deve ter no mínimo os inputs:</p>
-  
+
 - [x] Nome (com no máximo 100 caracteres)
 - [x] Email
 - [x] Telefone (apenas números
@@ -48,12 +48,21 @@ e
 <a href="https://github.com/Kris5GJ">Kristy</a>
 </details>
   
-<h2>Print</h2>
+ <details> 
+<summary>Print</summary>
+
 
 ![image](https://user-images.githubusercontent.com/16105546/143945269-453e4ce7-b602-464d-a402-ba286211dd5b.png)
 
 ![image](https://user-images.githubusercontent.com/16105546/143945311-b603e546-3c36-4d1c-9215-76d99b4087e8.png)
 
+</details>
 
 
-*teste
+<details>
+  <summary>Avaliativa</summary>
+  
+![unknown](https://user-images.githubusercontent.com/16105546/146624878-36d4b567-0c08-4254-bfc4-27e9afe07b68.png)
+
+  
+ </details> 
