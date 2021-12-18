@@ -2,7 +2,7 @@
 
 <div align="center">
   <h2>
-  <a href="#instrucoes">Instuções</a> | <a href="#finalizado">Link de acesso</a> | <a href="#grupo">Participantes</a> | <a href="#prints">Prints</a>
+  <a href="#instrucoes">Instuções</a> | <a href="#finalizado">Link de acesso</a> | <a href="#grupo">Participantes</a> | <a href="#prints">Prints</a> | <a href="#avaliativa">Avaliativa</a>
   </h2>
 </div>
 
@@ -122,6 +122,14 @@
 
 
 </details>
+
+
+<h2 id="avaliativa"> Nota avaliação<h2>
+  
+  
+  ![unknown](https://user-images.githubusercontent.com/16105546/146624969-76bd65c5-6264-402e-ae21-f2909c907bc5.png)
+
+  
   
 <h2 id="prints">Prints</h2>
 
