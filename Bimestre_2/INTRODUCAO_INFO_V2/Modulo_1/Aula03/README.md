@@ -32,3 +32,13 @@ Utilizando o CLI do Git Bash, realize os seguintes exercícios junto a sua Mesa 
 
 <h2>Árvore de pastas</h2>
 
+Exercício a ser feito:
+![Captura de tela de 2022-03-10 19-57-37](https://user-images.githubusercontent.com/16105546/157769124-5f32725a-76d8-4df0-8705-3b7c7b5e7428.png)
+
+
+Atividade concluída:
+![atividade-grupo4](https://user-images.githubusercontent.com/16105546/157768957-2e7f3336-e72d-4f2f-9aad-ba1fb8d861a4.png)
+
+Print da árvore de arquivos visto pelo VsCode:
+<br>
+![Gabriel_Azevedo_Silva-Aula3-parte2](https://user-images.githubusercontent.com/16105546/157769145-d9899f03-82a1-4b50-b3f0-37aa910e0b88.png)
