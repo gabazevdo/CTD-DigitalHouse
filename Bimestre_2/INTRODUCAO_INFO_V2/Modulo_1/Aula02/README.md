@@ -47,7 +47,7 @@ Tudo o que fazemos com o mouse pode ser feito através de comandos no terminal, 
 
 <h3> Comandos do terminal </h3>
 
-<a href="/Comandos_do_terminal.pdf"> Cique aqui </a>e veja o PDF com os comandos para utilizar no terminal.
+<a href="https://github.com/gabazevdo/CTD-DigitalHouse/blob/main/Bimestre_2/INTRODUCAO_INFO_V2/Modulo_1/Aula02/Comandos_do_terminal.pdf"> Cique aqui </a>e veja o PDF com os comandos para utilizar no terminal.
 
 
 <h3> O que posso fazer com o terminal? </h3>
@@ -106,4 +106,15 @@ Erro: o erro padrão (stderr) refere-se ao arquivo pelo qual um pedido apresenta
 ---
 
 <h2>Atividade feita em aula</h2>
+
+Atividade a ser feita:
+
+![Captura de tela de 2022-03-10 14-52-45](https://user-images.githubusercontent.com/16105546/157724934-fbbf2dce-9bc3-452e-af86-307d04825f59.png)
+
+Atividade concluída:
+(print com os comandos do terminal - utilizei o comando history)
+
+![atividade-grupo4](https://user-images.githubusercontent.com/16105546/157725520-e45e3f03-223f-450e-8041-7f1ea744c798.png)
+
+
 
