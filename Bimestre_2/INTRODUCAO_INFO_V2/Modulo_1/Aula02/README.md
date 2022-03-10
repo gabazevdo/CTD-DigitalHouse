@@ -32,7 +32,7 @@ Vamos examinar mais de perto esses conceitos, e os vários comandos que podemos 
 </ol>
 
 <h3>Atalhos VsCode </h3>
-<a href="/Atalhos_de_teclado_VSCode..pdf"> Cique aqui </a>e veja o PDF com os atalhos para Windows e Linux.
+<a href="https://github.com/gabazevdo/CTD-DigitalHouse/blob/main/Bimestre_2/INTRODUCAO_INFO_V2/Modulo_1/Aula02/Atalhos_de_teclado_VSCode.pdf"> Cique aqui </a>e veja o PDF com os atalhos para Windows e Linux.
 
 <h3> O que é o terminal? </h3>
 
