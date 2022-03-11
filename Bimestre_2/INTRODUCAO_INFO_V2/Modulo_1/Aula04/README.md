@@ -23,4 +23,13 @@ Ter o Git em seu computador. Para isto, deveremos seguir o guia de instalação 
 <li>Faça alterações nos arquivos, adicionando dois parágrafos. Frases de exemplo: “Meu primeiro teste com o git” e “Olá Mundo”.
 <li>Verifique novamente o status destes arquivos.
 <li>Faça um novo commit.
-</ol>
+</ol>!
+
+<h3>Atividade finalizada</h3>
+
+
+Print terminal (utilizando comando history)
+
+![atividade_aula](https://user-images.githubusercontent.com/16105546/157788093-50cbfce4-eb90-4de5-90e7-4d60a057d082.png)
+
+
