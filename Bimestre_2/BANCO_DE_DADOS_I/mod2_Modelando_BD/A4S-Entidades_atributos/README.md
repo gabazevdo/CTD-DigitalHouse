@@ -1,6 +1,11 @@
+<h1> O que entidade é? </h1>
 
-Na aula de hoje veremos novamente os Tipos de Modelos e o que é Entidades e Atributos!
+<p>
+Uma entidade é uma representação de um conjunto de informações sobre determinado conceito do sistema. Toda entidade possui ATRIBUTOS, que são as informações que referenciam a entidade.
+</p>
 
-Aulas muito interessantes e criativas estão chegando, onde sua participação é fundamental.
+<h2>Exercício mesa de trabalho </h2>
 
-Preparados? Então vamos nessa, porque temos um longo caminho pela frente!
+<b>Caso Restaurante</b>
+
+        Inserir print atividade
