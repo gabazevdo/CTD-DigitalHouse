@@ -37,4 +37,6 @@ Chamamos isso de <b>RELACIONAMENTOS</b> e vale esclarecer que existem vários ti
 Em modelagem de dados a cardinalidade é um dos princípios fundamentais sobre o relacionamento de um banco de dados relacional. Nela são definidos o graus de relação entre duas entidades ou tabelas. No modelo relacional, podemos ter os seguintes níveis de relacionamento: 1:N, N:N, 1:1.
 </p>
 
-        inserir print cardinalidade
+
+![cardinaliade](https://user-images.githubusercontent.com/16105546/158064910-5762de08-a531-42e9-aa4a-f7c0c0d44344.png)
+
