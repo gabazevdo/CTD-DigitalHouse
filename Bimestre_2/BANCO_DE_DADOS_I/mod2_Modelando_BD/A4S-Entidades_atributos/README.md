@@ -8,4 +8,6 @@ Uma entidade é uma representação de um conjunto de informações sobre determ
 
 <b>Caso Restaurante</b>
 
-        Inserir print atividade
+Realizado em grupo
+
+![Caso_restaurante](https://user-images.githubusercontent.com/16105546/158064653-61a2d9da-d0e7-49ea-947f-b398d0e8f39f.png)
