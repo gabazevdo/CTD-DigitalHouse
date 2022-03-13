@@ -25,9 +25,17 @@ A modelagem nos permite “desenhar” os melhores padrões e melhor utilizaçã
 
 <h2>Estudo de caso - Uber </h2>
 
-        //inserir print das tabelas relacionamento
+
+
+![caso_uber](https://user-images.githubusercontent.com/16105546/158064490-3e5fcd8c-d9c3-4bbc-be55-5c676ee6c97d.png)
+
 
 
 <h2>Exercício de validação </h2>
 
-      //inserir print da atividade
+
+![caso_playground](https://user-images.githubusercontent.com/16105546/158064569-bb4ba762-09cc-4614-b7e2-4f57bd6d9fe4.png)
+
+
+
+      
