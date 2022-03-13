@@ -59,7 +59,7 @@ São objetivos usuais de bancos de dados:
 
 <ol>
     <li>
-    Módulo: <a href="https://github.com/gabazevdo/CTD-DigitalHouse/tree/main/Bimestre_2/BANCO_DE_DADOS_I/mod_Introducao_BD" target="_blank" >Introdução ao Banco de Dados </a></li>
+    Módulo: <a href="https://github.com/gabazevdo/CTD-DigitalHouse/tree/main/Bimestre_2/BANCO_DE_DADOS_I/mod1_Introducao_BD" target="_blank" >Introdução ao Banco de Dados </a></li>
     <li>
     Módulo: <a href="https://github.com/gabazevdo/CTD-DigitalHouse/tree/main/Bimestre_2/BANCO_DE_DADOS_I/mod2_Modelando_BD" target="_blank" > Modelagem de Banco de Dados </a></li>
     <li>
