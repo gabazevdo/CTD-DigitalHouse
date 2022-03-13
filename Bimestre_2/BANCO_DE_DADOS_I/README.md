@@ -80,9 +80,9 @@ São objetivos usuais de bancos de dados:
 <div class="mestres">
 <h3>Professor</h3>
     <div style="display:flex; justify-content:center; align-items:center; height:120px;width:150px;border: .5px solid white; border-radius:15px 0; "  >
-    <a href="https://github.com/github"> 
+    <a href="https://github.com/juniorjrc"> 
     <img 
-    src="https://github.com/github.png" style='height:50px; border: 3px solid white; border-radius:50px;'>
+    src="https://github.com/juniorjrc" style='height:50px; border: 3px solid white; border-radius:50px;'>
     <p>Jorge Coutinho</p>
     </a>
     </div>
