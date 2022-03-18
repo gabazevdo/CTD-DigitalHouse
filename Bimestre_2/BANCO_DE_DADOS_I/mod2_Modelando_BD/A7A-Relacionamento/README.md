@@ -40,3 +40,10 @@ Em modelagem de dados a cardinalidade é um dos princípios fundamentais sobre o
 
 ![cardinaliade](https://user-images.githubusercontent.com/16105546/158064910-5762de08-a531-42e9-aa4a-f7c0c0d44344.png)
 
+
+<h2>Atividade realizada em aula </h2>
+
+<p>
+Montar o DER de uma biblioteca, dada das informações fornecidas pelo conteúdo da DH.
+
+        inserir print da atividade
