@@ -45,5 +45,13 @@ Em modelagem de dados a cardinalidade é um dos princípios fundamentais sobre o
 
 <p>
 Montar o DER de uma biblioteca, dada das informações fornecidas pelo conteúdo da DH.
+</p>
+<a href="https://github.com/gabazevdo/CTD-DigitalHouse/blob/main/Bimestre_2/BANCO_DE_DADOS_I/mod2_Modelando_BD/A7A-Relacionamento/DER-BIBLIOTECA.mwb"> clique aqui</a> e tenha acesso a construção do DER.
 
-        inserir print da atividade
+
+<h4> Print DER </h4>
+
+
+![A7S-Relacionamento_Biblioteca](https://user-images.githubusercontent.com/16105546/158938792-3483f778-5876-42be-ac44-9673899e1bfc.png)
+
+
