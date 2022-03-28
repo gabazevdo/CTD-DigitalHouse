@@ -74,7 +74,19 @@ São objetivos usuais de bancos de dados:
 </div>
 
 
+<h2> Avaliações </h2>
+<p> O feedback individual será realizado de 6 em 6 aulas <p>
+    <p><b>Primeiro feedback 18/03/2022</b></p>
 
+![avaliacao_bd](https://user-images.githubusercontent.com/16105546/160323436-f269e4ae-5cc9-440b-922a-da656641b692.png)
+
+
+![consumo](https://user-images.githubusercontent.com/16105546/160323463-8c7cc8eb-64f9-4530-89d7-2c4160746fae.png)
+
+ 
+
+    
+    
 <h2>Equipe docente</h2>
 
 <div class="mestres">
