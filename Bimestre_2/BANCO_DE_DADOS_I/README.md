@@ -75,8 +75,8 @@ São objetivos usuais de bancos de dados:
 
 
 <h2> Avaliações </h2>
-<p> O feedback individual será realizado de 6 em 6 aulas <p>
-    <p><b>Primeiro feedback 18/03/2022</b></p>
+<p> Feedback individual <p>
+    <p><b>1º feedback</b></p>
 
 ![avaliacao_bd](https://user-images.githubusercontent.com/16105546/160323436-f269e4ae-5cc9-440b-922a-da656641b692.png)
 
@@ -85,7 +85,19 @@ São objetivos usuais de bancos de dados:
 
  
 
+<p> Feedback individual <p>
+    <p><b>2º feedback</b></p>
     
+  
+  
+![Captura de tela de 2022-04-23 21-01-48](https://user-images.githubusercontent.com/16105546/164950087-fb4767a4-082a-4752-9277-26dd483fc6de.png)
+
+    
+![Captura de tela de 2022-04-23 21-02-06](https://user-images.githubusercontent.com/16105546/164950091-fafa3795-3e2a-41b8-8f7e-5e437132d59a.png)
+    
+    
+   
+---   
     
 <h2>Equipe docente</h2>
 
