@@ -1,22 +1,30 @@
-let arr = [1, 2, 4, 8];
-let soma = 0;
+let arrayNumeros = [1, 2, 4, 8];
 
+// A atividade deve seguir este curso:
 // 1º iteração 0 + 1 = 1
 // 2º iteração 1 + 2 = 3
 // 3º iteração 3 + 4 = 7
 // 4º iteração 7 + 8 = 15
 
-for(let number in arr){
-  // soma =+ arr[number]
-  soma = soma + arr[number]
-  console.log(soma)
+// Utilizando o FOR IN
+let somaForIn = 0;
+for(let indiceArray in arrayNumeros){
+  somaForIn = somaForIn + arrayNumeros[indiceArray]
+  console.log(somaForIn)
 }
 
 
-////////////////// Realizando a mesma atividade com o FOR
+// Utilizando o FOR OF
+let somaForOf = 0;
+for(let indiceArray of arrayNumeros){
+  somaForOf += indiceArray
+  console.log(somaForOf)
+}
 
-// for (let i = 0; i < arr.length; i++) {
-//   soma += arr[i]
-//   console.log(`${i} + ${arr[i]} = ${soma}`)
-// }
+let somaFor = 0;
+// Utilizando o FOR comum
+for (let i = 0; i < arrayNumeros.length; i++) {
+  somaFor += arrayNumeros[i]
+  console.log(`Indice(posição) ${i} + Propriedade(valor) Array ${arrayNumeros[i]} = ${somaFor}`)
+}
 
