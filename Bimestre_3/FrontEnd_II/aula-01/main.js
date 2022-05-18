@@ -1,6 +1,6 @@
 let arrayNumeros = [1, 2, 4, 8];
 
-// A atividade deve seguir este curso:
+// As interações com o FOR deve seguir este curso:
 // 1º iteração 0 + 1 = 1
 // 2º iteração 1 + 2 = 3
 // 3º iteração 3 + 4 = 7
@@ -13,7 +13,6 @@ for(let indiceArray in arrayNumeros){
   console.log(somaForIn)
 }
 
-
 // Utilizando o FOR OF
 let somaForOf = 0;
 for(let indiceArray of arrayNumeros){
@@ -21,10 +20,12 @@ for(let indiceArray of arrayNumeros){
   console.log(somaForOf)
 }
 
-let somaFor = 0;
 // Utilizando o FOR comum
+let somaFor = 0;
 for (let i = 0; i < arrayNumeros.length; i++) {
   somaFor += arrayNumeros[i]
   console.log(`Indice(posição) ${i} + Propriedade(valor) Array ${arrayNumeros[i]} = ${somaFor}`)
 }
+
+
 
