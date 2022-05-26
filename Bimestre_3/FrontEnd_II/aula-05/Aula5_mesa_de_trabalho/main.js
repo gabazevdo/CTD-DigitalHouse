@@ -24,6 +24,8 @@ let post = {
     texto: `O gato (Felis silvestris catus), também conhecido como gato caseiro, gato urbano ou gato doméstico,[4] é um mamífero carnívoro da família dos felídeos, muito popular como animal de estimação. Ocupando o topo da cadeia alimentar, é predador natural de diversos animais, como roedores, pássaros, lagartixas e alguns insetos. Segundo pesquisas realizadas por instituições norte-americanas, os gatos consistem no segundo animal de estimação mais popular do mundo, estando numericamente atrás apenas dos peixes de aquário.`,
 }
 
+
+// o link que estao nas fotos abaixo são de um Lore Ipsum de imagens, a ideia era gerar de maneira rondômica, mas não acontece. Irei fazer a correção posteriormente.
 let posts = [
     {
         foto:`https://api.lorem.space/image/burger?w=150&h=150`,
