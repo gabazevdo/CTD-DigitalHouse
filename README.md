@@ -59,18 +59,18 @@ As soft skills são competências relacionadas ao comportamento de cada pessoa, 
 │
 ├────── 1-BIMESTRE - Finalizado em 10/12/2021
 │   ├── PROGRAMACAO-IMPERATIVA - Nota final 10 - (House Lendário)
-│   ├── FRONT-END-1 - Nota final 9.7 - (House Lendário)
-│   └── METODOLOGIAS-AGEIS - - Nota final 10 - (House Lendário)
+│   ├── FRONT-END-I - Nota final 9.7 - (House Lendário)
+│   └── METODOLOGIAS-AGEIS - Nota final 10 - (House Lendário)
 │
 ├────── 2-BIMESTRE
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── BANCO-DE-DADOS-I - Nota Final 9.06- (House Lendário)
+│   ├── INTRODUCAO-INFORMATICA - Nota final 9.67 - (House Lendário)
+│   └── LEARNING-AGILITY - Nota final 10 - (House Lendário) 
 │
 ├────── 3-BIMESTRE
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── INFRAESTRUTURA-I 
+│   ├── FRONT-END-II - 
+│   └── TEAMWORK-&-COLLABORATION -
 │
 ├──────4-BIMESTRE
 │   ├── 
