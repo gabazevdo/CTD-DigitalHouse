@@ -1,0 +1,1 @@
+# Exercícios para serem feitos utilizando o Shell Script
