@@ -4,7 +4,7 @@ Criar mais posts (min. 8) atrtavés do objeto no javascript.
 
 ### Deploy
 
-[Clique aqui](https://mesa4-aula06.netlify.app/) e veja o deploy feito no Netlify.
+[Clique aqui](https://thriving-heliotrope-5429b8.netlify.app/) e veja o deploy feito no Netlify.
 
 ### integrantes
 
