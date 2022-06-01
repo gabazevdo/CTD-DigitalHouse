@@ -5,10 +5,10 @@
 ### integrantes:
 
 - Alicia Oliveira
-- Lara Mangabeira
-- Glaucia Ximenes
-- Gabriel Azevedo
-- Fabio Silva
-- Josemar Silva
+- Emanuel
+- Valeria Goncalvez
+- Gabriel Azevedo Silva
+- Milena Moraes
+- Jonathan Santos
 
 
