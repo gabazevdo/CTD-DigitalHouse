@@ -1,5 +1,14 @@
-# Aula 06 25-05
+## Atividade realizada em mesa.
 
-Foi dado continuidade na atividade realizada na aula-05
+### Mesa 4
 
-Desta feita, utilizando o objeto para a partir dele, adicionar 'novos itens' ao corpo do html de forma dinâmica.
+### integrantes:
+
+- Alicia Oliveira
+- Lara Mangabeira
+- Glaucia Ximenes
+- Gabriel Azevedo
+- Fabio Silva
+- Josemar Silva
+
+
