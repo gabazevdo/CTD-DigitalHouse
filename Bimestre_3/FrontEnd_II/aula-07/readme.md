@@ -5,7 +5,7 @@
 
 ### Deploy
 
-[Clique aqui](https://kaleidoscopic-frangipane-5066ab.netlify.app/) e veja o deploy feito no Netlify.
+[Clique aqui](https://comfy-truffle-3bd37f.netlify.app/) e veja o deploy feito no Netlify.
 ### integrantes
 
 - Alicia Oliveira
