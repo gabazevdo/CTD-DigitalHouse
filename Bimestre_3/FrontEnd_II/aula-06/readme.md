@@ -1,6 +1,8 @@
 ## Atividade realizada na mesa 4.
+
+
 ## Objetivo
-Criar mais posts (min. 8) atrtavés do objeto no javascript.
+- [x] Criar mais posts (min. 8) atrtavés do objeto no javascript.
 
 ### Deploy
 
