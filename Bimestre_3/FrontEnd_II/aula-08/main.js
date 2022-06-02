@@ -6,8 +6,14 @@ function replaceTheme() {
 }
 
 var containerElemento = document.querySelector('.container')
-
 var novaPostagemElemento = document.querySelector('#novaPostagem')
+
+
+
+// variaveis para armazenar os dados do input
+var inputFoto = document.querySelector("#foto");
+var inputTitulo = document.querySelector("#titulo");
+var inputTexto = document.querySelector("#texto");
 
 var posts = [
   {
@@ -42,19 +48,18 @@ for (let post of posts) {
 
 // Utilizando o event listenner para adicionar. E nessa caso, foi removido o onclick do botao lá no html
 
-
-
 novaPostagemElemento.addEventListener('click', () => {
-    var novaPostagem = {
-        foto: prompt('Insira a foto'),
-        titulo: prompt('insira o titulo'),
-        texto: prompt('Insira o texto')
-      }
-    
       containerElemento.innerHTML += ` 
         <div class="item"> 
-            <img src="${novaPostagem.foto}"> 
-            <h2>${novaPostagem.titulo}</h2> 
-            <p>${novaPostagem.texto}</p> 
+            <img src="${inputFoto.value}"> 
+            <h2>${inputTitulo.value}</  h2> 
+            <p>${inputTexto.value}</p> 
         </div> `
+
+        inputFoto.value = ''
+        inputTitulo.value = ''
+        inputTexto.value = ''
+
 })
+
+
