@@ -1,11 +1,11 @@
 ## Atividade realizada na mesa 2.
 
 ### Objetivo
-- [x] Adicionar um item através de um prompt.
+- [x] Adicionar um item através de formulário.
 
 ### Deploy
 
-[Clique aqui](https://comfy-truffle-3bd37f.netlify.app/) e veja o deploy feito no Netlify.
+[Clique aqui](https://aula8-mesa2.netlify.app/) e veja o deploy feito no Netlify.
 ### integrantes
 
 - Alicia Oliveira
