@@ -4,47 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula 10</title>
   </head>
   <body>
-    <div class="container-form">
-        <h1>Cadastro</h1>
-      <form>
-        <div class="form-control">
-          <label for="userName">Name</label>
-          <input type="text" id="userName" required />
-          <small>Forneça um nome válido</small>
-        </div>
+    <form>
+      <div class="form-control">
+        <label for="userName">Nome</label>
+        <input type="text" id="userName" minlength required />
+        <small>Forneça um nome válido</small>
+      </div>
 
-        <div class="form-control">
-          <label for="userEmail">E-mail</label>
-          <input type="email" id="userEmail" minlength="6" required />
-          <small>Forneça um e-mail válido</small>
-        </div>
+      <div class="form-control" id="userMailControler">
+        <label for="userEmail">Email</label>
+        <input type="email" id="userEmail" minlength="6" required />
+        <small>Forneça um e-mail válido</small>
+      </div>
 
-        <div class="form-control">
-          <label for="userPassword">Password</label>
-          <input type="password" id="userPassword" minlength="6" required />
-          <small>Forneça um e-mail válido</small>
-        </div>
+      <div class="form-control" id="userPasswordControl">
+        <label for="userEmail">Senha</label>
+        <input
+          type="password"
+          id="userPasswordControl"
+          minlength="6"
+          required
+        />
+        <small>Forneça uma senha válida</small>
+      </div>
 
-        <div class="form-control" id="userPasswordControl">
-          <label for="userPasswordConfirm">Password Confirm</label>
-          <input
-            type="password"
-            id="userPasswordConfirm"
-            minlength="6"
-            required
-          />
-          <small>Forneça um e-mail válido</small>
-        </div>
-        <div class="button-control">
-            <button id="createUserButton"> Confirmar</button>
-        </div>
-      </form>
-    </div>
+      <div class="form-control" id="userPasswordConfirmControl">
+        <label for="userEmail">Confirme a senha</label>
+        <input
+          type="password"
+          id="userPasswordConfirmControl"
+          minlength="6"
+          required
+        />
+        <small>Forneça uma senha válida</small>
+      </div>
+    </form>
 
-    <script src="./script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
