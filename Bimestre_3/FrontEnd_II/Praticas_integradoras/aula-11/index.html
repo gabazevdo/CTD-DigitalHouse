@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container-form">
-        <h1>Cadastro</h1>
+      <h1>Cadastro</h1>
       <form>
         <div class="form-control">
           <label for="userName">Name</label>
@@ -26,7 +26,7 @@
         <div class="form-control">
           <label for="userPassword">Password</label>
           <input type="password" id="userPassword" minlength="6" required />
-          <small>Forneça um e-mail válido</small>
+          <small>Forneça uma senha válida</small>
         </div>
 
         <div class="form-control" id="userPasswordControl">
@@ -37,14 +37,15 @@
             minlength="6"
             required
           />
-          <small>Forneça um e-mail válido</small>
+
+          <small>Confirme a senha corretamente</small>
         </div>
         <div class="button-control">
-            <button id="createUserButton"> Confirmar</button>
+          <button type="submit" id="createUserButton">Confirmar</button>
         </div>
       </form>
     </div>
 
-    <script src="../script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

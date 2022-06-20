@@ -34,7 +34,7 @@ form button {
   background-color: rgb(65, 154, 65);
   font-size: 14px;
   margin-top: 20px;
-  transition: .2s all;
+  transition: 0.2s all;
   cursor: pointer;
 }
 
@@ -43,17 +43,16 @@ form button:hover {
 }
 
 .container-form {
-  
   min-width: 60%;
   height: auto;
   background-color: #2a2a2a;
-  padding: 2%;
+  padding: 5%;
   border-radius: 10px;
 }
 
-.container-form h1{
-    color: #f1f1f1;
-    margin-bottom: 20px;
+.container-form h1 {
+  color: #f1f1f1;
+  margin-bottom: 2.5rem;
 }
 
 .form-control {
@@ -61,19 +60,21 @@ form button:hover {
   flex-direction: column;
   margin-bottom: 12px;
   color: #f1f1f1;
+  padding: 15px 0;
+  width: 50%;
+  min-width: 480px;
+  position: relative;
 }
 
 .form-control label {
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
-.form-control input  {
-    font-weight: 400;
-    background-color: #161515;
-    color:#f1f1f1;
-  }
-
-
+.form-control input {
+  font-weight: 400;
+  background-color: #161515;
+  color: #f1f1f1;
+}
 
 .form-control small {
   color: rgb(218, 46, 46);
