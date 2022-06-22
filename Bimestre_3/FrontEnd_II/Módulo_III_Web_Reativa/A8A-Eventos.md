@@ -37,3 +37,46 @@ Para mais informações, visite a documentação oficial clicando no seguinte [l
 ## Funções
 
 ![](https://assets.digitalhouse.com/content/ar/td/frontII/TiposdefuncoesemJavaScript.jpg)
+
+
+## Palavras Reservadas
+#### Como declarar uma variável
+
+
+A partir de ES6 utilizamos as seguintes palavras reservadas para declarar nossas variáveis.
+
+
+**var**
+
+O escopo é seu contexto de execução (em outras palavras, a variável vive dentro da função em que é declarada). O escopo de uma variável declarada fora de uma função é global.
+
+**let**
+
+Graças a isso, o escopo do bloco é introduzido. Variáveis atribuídas com let só são acessíveis dentro do seu bloco. Recorde que o bloco é a parte do código definida entre chaves ({}), por exemplo, dentro de um bloco **if**:
+
+~~~javascript
+let cor = "vermelho"; 
+
+if (cor === "vermelho") { 
+  let corEscolhida = cor; // Essa variável vive dentro do bloco if
+
+  console.log("A cor escolhida é" + " " + corEscolhida); // A cor escolhida é vermelho
+}else{
+  console.log(corEscolhida); // Isto devolveria um erro, já que corEscolhida não vive dentro de outro bloco. 
+}
+~~~
+
+As variáveis declaradas fora de um bloco de código têm um escopo global.
+
+**const**
+
+Seu comportamento é igual ao de let, exceto pela diferença de que o seu valor não pode ser reatribuído. O uso correto minimiza o estado de mutação.
+
+#### Conclusões
+Olhando para todas estas funcionalidades e comportamentos que as palavras reservadas nos dão, podemos tirar a seguinte conclusão:
+
+
+:bulb: *O ideal ao declarar uma variável é sempre utilizar a palavra reservada const, a menos que em algum momento necessitemos de reatribuir o seu valor. Nesses casos, podemos implementar a palavra reservada let.*
+
+:bulb: *Praticamente não deveríamos utilizar a palavra var no nosso código, contudo, se em algum momento precisarmos usar esta palavra reservada para fazer o nosso código funcionar, então podemos pensar em reformular o nosso código para evitar recorrer à utilização de var.*
+
