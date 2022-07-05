@@ -110,10 +110,7 @@ salário, o programa deve retornar o valor do desconto proporcional ao mesmo. O 
 Gasolina Até 25 litros, desconto de 3% por litro Acima de 25 litros, desconto de 5% por litro
 Escreva um algoritmo que receba o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,70 e o preço do litro do álcool é R$ 1,90.
 
-31. No Futebol Americano, usa-se o Quarterback Rating como um índice que indica o desempenho do quarterback (quando maior, melhor). Ele é calculado como indicado a seguir: Calcula-se o percentual de passes completados em relação aos passes tentados pelo quarterback. Deste valor subtrai-se 0,3 e divide-se por 0,2. Este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, ajusta-se o valor para 2,375 ou 0,
-        
-respectivamente).
-Em seguida, calcula-se a razão de jardas passadas pela quantidade de passes tentados. Deste valor, subtrai-se 3 e divide-se por 4. Novamente, este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, procede-se como no caso anterior).
+31. No Futebol Americano, usa-se o Quarterback Rating como um índice que indica o desempenho do quarterback (quando maior, melhor). Ele é calculado como indicado a seguir: Calcula-se o percentual de passes completados em relação aos passes tentados pelo quarterback. Deste valor subtrai-se 0,3 e divide-se por 0,2. Este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, ajusta-se o valor para 2,375 ou 0, respectivamente). Em seguida, calcula-se a razão de jardas passadas pela quantidade de passes tentados. Deste valor, subtrai-se 3 e divide-se por 4. Novamente, este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, procede-se como no caso anterior).
 Agora, calcula-se a razão de passes para touchdows pelo número de passes tentados. Divide-se o valor por 0,05. Mais uma vez, este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, procede-se como de costume).
 Então, calcula-se a razão entre passes interceptados e o número de passes tentados. Deste valor, subtrai-se 0,095 e divide-se o resultado por 0,04. Como de praxe, este valor não deve ser maior que 2,375 ou menor que 0 (caso seja, atua-se como explicado).
 O quarterback rating é calculando somando-se as quatro parcelas anteriores, multiplicando a soma por 100 e dividindo-se o produto por 6.
@@ -135,14 +132,11 @@ Tipo 1 – ervas daninhas R$ 50,00 por acre; Tipo 2 – gafanhotos R$ 100,00 por
 Tipo 4 – todos acima R$ 250,00 por acre.
 Se a área a ser pulverizada for superior a 1000 acres, o fazendeiro tem um desconto de 5%. Em adição, qualquer fazendeiro cujo custo for maior do que R$ 750,00 tem um desconto de 10% sobre o valor que ultrapassar os R$ 750,00. Caso ambos os descontos se aplicam o da área é calculado antes. Fazer um algoritmo que receba: o tipo de pulverização (1 a 4) e área a ser pulverizada; e imprima o valor a ser pago.
 
-38. Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando ele com 366 dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos. Escreva um programa que verifique se um ano é bissexto. Um ano é bissexto se ele é divisível por 4. Entretanto, se o ano é divisível por 100, ele não é bissexto. Mas, se ele for
-
-divisível por 400, ele volta a ser bissexto.
+38. Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando ele com 366 dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos. Escreva um programa que verifique se um ano é bissexto. Um ano é bissexto se ele é divisível por 4. Entretanto, se o ano é divisível por 100, ele não é bissexto. Mas, se ele for divisível por 400, ele volta a ser bissexto.
 a. São bissextos os anos: 1600, 1996, 2000, 2004, 2008, 2012, 2016, 2400, 2800, ...
 b. Não são bissextos: 1500, 1974, 1982, 1983, 1990, 2018, 2022, 2030, 2038, ...
 
-
-                  40. Escreva um programa que receba um numero inteiro de 1 a 4 e mostre na tela o numero por extenso.
+40. Escreva um programa que receba um numero inteiro de 1 a 4 e mostre na tela o numero por extenso.
 
 41. Escreva um programa que imprima todos os números inteiros do intervalo fechado de 1 a 100.
 
@@ -162,18 +156,16 @@ primo ou não.
 primo ou não.
 
 50. Escreva um programa que receba um valor e imprima todas as possíveis combinações em
-que o lançamento de um par de dados tenha como resultado da soma dos valores dos dados o número lido. Por exemplo, se a entrada for o número 7, o programa deve imprimir as seguintes combinações:
-•16
-
-•25 •34 •43 •52 •61
+que o lançamento de um par de dados tenha como resultado da soma dos valores dos dados o número lido. Por exemplo, se a entrada for o número 7, o programa deve imprimir as seguintes combinações: •16•25 •34 •43 •52 •61
 
 51. A série de Fibonacci é formada pela sequencia: • 1,1,2,3,5,8,13,21,34,55,...
-Escreva um programa que gere a série de FIBONACCI até o N-ésimo termo (com N
-sendo uma entrada do algoritmo).
+Escreva um programa que gere a série de FIBONACCI até o N-ésimo termo (com N sendo uma entrada do algoritmo).
 
 
 53. Dado um país A, com 5.000.000 de habitantes e uma taxa de natalidade de 3% ao ano, e um país B com 7.000.000 de habitantes e uma taxa de natalidade de 2% ao ano, escreva um programa, que imprima o tempo necessário para que a população do país A ultrapasse a população do país B.
-54. Construa um programa que receba um número e verifique se ele é um número triangular. (Um número é triangular quando é resultado do produto de três números consecutivos. Exemplo: 24 = 2 x 3 x 4)
+
+
+55. Construa um programa que receba um número e verifique se ele é um número triangular. (Um número é triangular quando é resultado do produto de três números consecutivos. Exemplo: 24 = 2 x 3 x 4)
 
 56. Um número se diz perfeito se é igual à soma de seus divisores próprios. Divisores próprios de um número positivo N são todos os divisores inteiros positivos de N exceto o próprio N. Por exemplo, o número 6, seus divisores próprios são 1, 2 e 3, cuja soma é igual à 6 (1 + 2 + 3 = 6). Outro exemplo é o número 28, cujos divisores próprios são 1, 2, 4, 7 e 14, e a soma dos seus divisores próprios é 28 (1 + 2 + 4 + 7 + 14 = 28).
 
@@ -208,7 +200,6 @@ a. Inserir um elemento no final do vetor
 b. Inserir um elemento em uma dada posição
 c. Remover um elemento de uma posição indicada
 d. Remover todos elementos iguais a um valor indicado
-
 e. Gerar um novo array sem duplicidades a partir deste array
 
 
